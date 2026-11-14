@@ -373,6 +373,7 @@ window.DATA={
 "name": "Jackson Rangel",
 "handle": "jackson_rangel",
 "color": "#0097a7",
+"foto": "fotos/jackson-rangel.jpeg",
 "bio": "Jornalista de Cachoeiro de Itapemirim (ES), dono do jornal Folha do Espírito Santo.",
 "status": "Preso por 368 dias (15/12/2022 a 20/12/2023), sem denúncia formal",
 "crime": "Suspeita, apresentada pelo Ministério Público do ES, de integrar uma milícia digital que atacaria instituições e de lavar dinheiro com fake news no site Folha do ES. O jornalista nega e diz que foi perseguido por reportagens. Sem denúncia formal nas fontes consultadas.",
@@ -406,6 +407,7 @@ window.DATA={
 "name": "Gilmar Mendes",
 "handle": "gilmar_mendes",
 "color": "#6a1b9a",
+"foto": "fotos/gilmar.jpg",
 "role": "Ministro do STF",
 "bio": "Ministro do STF. Pediu providências contra Rodrigo Janot (2019) e a inclusão de Romeu Zema no inquérito (2026). Perfil ilustrativo, não é conta real.",
 "since": "Ministro do STF"
@@ -436,6 +438,7 @@ window.DATA={
 "name": "Bia Kicis",
 "handle": "bia_kicis",
 "color": "#e91e63",
+"foto": "fotos/bia-kicks.jpg",
 "bio": "Deputada federal pelo DF (PSL à época da operação de 2020).",
 "status": "Intimada a depor em 27/05/2020; sigilo bancário quebrado em 16/06/2020 (inquérito dos atos antidemocráticos)",
 "crime": "Investigada por publicações contra o STF. O documento de Moraes lista um post dela de 05/05/2020 que acusava a Corte de atuar a favor de criminosos (Folha PE). Apuração, sem condenação registrada neste arquivo.",
@@ -604,6 +607,7 @@ window.DATA={
 "name": "Winston Rodrigues Lima",
 "handle": "winston_lima",
 "color": "#4e342e",
+"foto": "fotos/wintson.jpeg",
 "bio": "Capitão da reserva e blogueiro.",
 "status": "Busca e retenção de aparelhos em 27/05/2020; sigilo bancário quebrado",
 "crime": "Suspeita de envolvimento no financiamento de fake news e ataques ao STF (Mais Goiás). Apuração, sem condenação registrada neste arquivo.",
@@ -681,10 +685,110 @@ window.DATA={
 "name": "Elon Musk",
 "handle": "elonmusk",
 "color": "#71767b",
+"foto": "fotos/elon.jpg",
 "bio": "Empresário e proprietário da plataforma X.",
 "status": "Incluído como investigado no Inq. 4.874 em 08/04/2024.",
 "crime": "A inclusão foi determinada pelo STF após declarações sobre o cumprimento de decisões judiciais pela plataforma. A investigação não equivale a condenação.",
 "crimeTipo": "apurado"
+},
+{
+"id": "marcus-alves",
+"kind": "related",
+"name": "Marcus Henrique de Oliveira Alves",
+"handle": "marcus_alves",
+"color": "#455a64",
+"bio": "Delegado titular da 44ª DP. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
+"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "franklin-alves",
+"kind": "related",
+"name": "Franklin José de Oliveira Alves",
+"handle": "franklin_alves",
+"color": "#546e7a",
+"bio": "Comissário de polícia. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
+"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "leandro-moutinho",
+"kind": "related",
+"name": "Leandro Moutinho de Deus",
+"handle": "leandro_moutinho",
+"color": "#37474f",
+"bio": "Oficial de cartório da Polícia Civil. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
+"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "dudu-cunha",
+"kind": "related",
+"name": "Luiz Eduardo Cunha Gonçalves (Dudu)",
+"handle": "dudu_cunha",
+"color": "#6d4c41",
+"bio": "Ex-assessor parlamentar de TH Joias. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
+"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "alessandro-carracena",
+"kind": "related",
+"name": "Alessandro Pitombeira Carracena",
+"handle": "alessandro_carracena",
+"color": "#5d4037",
+"bio": "Advogado e ex-secretário estadual. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
+"status": "Prisão preventiva no Inq. 5.020, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "edgar-alves-de-andrade",
+"kind": "related",
+"name": "Edgar Alves de Andrade",
+"handle": "",
+"color": "#6a1b9a",
+"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecida como Doca ou Urso. Informação não verificada independentemente.",
+"status": "Foragido, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "carlos-da-costa-neves",
+"kind": "related",
+"name": "Carlos da Costa Neves",
+"handle": "",
+"color": "#4527a0",
+"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecida como Gardenal. Informação não verificada independentemente.",
+"status": "Foragido, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "pedro-paulo-guedes",
+"kind": "related",
+"name": "Pedro Paulo Guedes",
+"handle": "",
+"color": "#283593",
+"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecido como Pedro Bala. Informação não verificada independentemente.",
+"status": "Foragido, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "juan-breno-malta",
+"kind": "related",
+"name": "Juan Breno Malta",
+"handle": "",
+"color": "#1565c0",
+"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecida como BMW ou Rex. Informação não verificada independentemente.",
+"status": "Foragido, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "manoel-cinquine-pereira",
+"kind": "related",
+"name": "Manoel Cinquine Pereira",
+"handle": "",
+"color": "#0277bd",
+"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecida como Paulista. Informação não verificada independentemente.",
+"status": "Investigado, segundo resumo fornecido pelo usuário; não verificado."
+},
+{
+"id": "luciano-martiniano-da-silva",
+"kind": "related",
+"name": "Luciano Martiniano da Silva",
+"handle": "",
+"color": "#00838f",
+"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecido como Pezão. Informação não verificada independentemente.",
+"status": "Investigado, segundo resumo fornecido pelo usuário; não verificado."
 }
 ],
 "posts": [
@@ -2286,6 +2390,7 @@ window.DATA={
 "groups": [
 {
 "title": "Pessoas submetidas a medidas cautelares",
+"identifier": "#Inq4828",
 "note": "As medidas foram revogadas com o arquivamento do inquérito.",
 "people": [
 {"name": "Sara Fernanda Giromini (Sara Winter)", "profile": "sara", "relation": "Teve medidas cautelares impostas no inquérito; revogadas no arquivamento.", "sources": [0]},
@@ -2299,6 +2404,7 @@ window.DATA={
 },
 {
 "title": "Alvos de quebra de sigilo financeiro",
+"identifier": "#Inq4828",
 "note": "A diligência é registrada como medida de investigação e não implica culpa ou permanência como investigado até o encerramento.",
 "people": [
 {"name": "Bia Kicis", "profile": "kicis", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
@@ -2315,11 +2421,11 @@ window.DATA={
 {"text": "O vínculo de Otoni de Paula com quebra de sigilo no Inq. 4.828 não foi confirmado nas fontes listadas; por isso, não é apresentado como alvo dessa diligência."}
 ],
 "sources": [
-{"title": "STF — Inquérito arquivado e abertura de investigação sobre organização criminosa", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"},
-{"title": "STF — Decisão sobre prisão de investigado no inquérito das manifestações antidemocráticas", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-divulga-integra-de-decisao-sobre-prisao-de-investigado-no-inquerito-das-manifestacoes-antidemocraticas/"},
-{"title": "CNN Brasil — Deputados e senador tiveram sigilos quebrados", "url": "https://www.cnnbrasil.com.br/politica/dez-deputados-federais-e-um-senador-tiveram-sigilos-quebrados/"},
-{"title": "STF — Decisão no inquérito sobre manifestações antidemocráticas", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-divulga-integra-de-decisao-no-inquerito-sobre-manifestacoes-antidemocraticas/"},
-{"title": "STF — Acesso aos autos do inquérito das fake news", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-assegura-acesso-de-interessados-aos-autos-do-inquerito-que-apura-fake-news/"}
+{"title": "STF — Inquérito arquivado e abertura de investigação sobre organização criminosa", "date": "2021-07-01", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"},
+{"title": "STF — Decisão sobre prisão de investigado no inquérito das manifestações antidemocráticas", "date": "2020-06-30", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-divulga-integra-de-decisao-sobre-prisao-de-investigado-no-inquerito-das-manifestacoes-antidemocraticas/"},
+{"title": "CNN Brasil — Deputados e senador tiveram sigilos quebrados", "date": "2020-06-16", "url": "https://www.cnnbrasil.com.br/politica/dez-deputados-federais-e-um-senador-tiveram-sigilos-quebrados/"},
+{"title": "STF — Decisão no inquérito sobre manifestações antidemocráticas", "date": "2020-06-22", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-divulga-integra-de-decisao-no-inquerito-sobre-manifestacoes-antidemocraticas/"},
+{"title": "STF — Acesso aos autos do inquérito das fake news", "date": "2020-06-02", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-assegura-acesso-de-interessados-aos-autos-do-inquerito-que-apura-fake-news/"}
 ]
 },
 {
@@ -2330,6 +2436,7 @@ window.DATA={
 "groups": [
 {
 "title": "Vínculos documentados no Inq. 4.874",
+"identifier": "#Inq4874",
 "people": [
 {"name": "Allan dos Santos", "profile": "allan", "relation": "Investigado no Inq. 4.874; o STF noticiou ordem de prisão preventiva e providências relacionadas à extradição.", "sources": [1]},
 {"name": "Elon Musk", "profile": "elon", "relation": "Incluído como investigado por decisão do STF em abril de 2024.", "sources": [0]},
@@ -2338,6 +2445,7 @@ window.DATA={
 },
 {
 "title": "Procedimento distinto relacionado ao tema — PET 10.543",
+"identifier": "#PET10543",
 "note": "Não confundir esta apuração sobre empresários com o Inq. 4.874.",
 "people": [
 {"name": "Luciano Hang", "profile": "hang", "relation": "Permaneceu sob investigação na PET 10.543 em agosto de 2023.", "sources": [4]},
@@ -2351,12 +2459,12 @@ window.DATA={
 {"text": "Sara Winter e Oswaldo Eustáquio aparecem em listas públicas associadas ao tema, mas não foram confirmados como investigados do Inq. 4.874 nas fontes consultadas."}
 ],
 "sources": [
-{"title": "STF — Inclusão do dono da rede social X no inquérito das milícias digitais", "url": "https://noticias.stf.jus.br/postsnoticias/stf-inclui-dono-da-rede-social-x-no-inquerito-das-milicias-digitais/"},
-{"title": "STF — Pedido de informações sobre a extradição de Allan dos Santos", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-pede-informacoes-sobre-extradicao-de-allan-dos-santos-ao-ministerio-da-justica/"},
-{"title": "STF — Referências a investigações anteriores envolvendo Jair Bolsonaro", "url": "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pgr-e-incluiu-bolsonaro-em-inquerito-sobre-atos-de-vandalismo-em-brasilia/"},
-{"title": "STF — Pedido sobre doações via Pix encaminhado à Polícia Federal", "url": "https://noticias.stf.jus.br/postsnoticias/pedido-de-investigacao-de-envio-de-pix-ao-ex-presidente-jair-bolsonaro-e-encaminhado-a-pf/"},
-{"title": "STF — Arquivamento de investigação contra empresários na PET 10.543", "url": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/"},
-{"title": "STF — Acesso aos autos do Inq. 4.781", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-assegura-acesso-de-interessados-aos-autos-do-inquerito-que-apura-fake-news/"}
+{"title": "STF — Inclusão do dono da rede social X no inquérito das milícias digitais", "date": "2024-04-08", "url": "https://noticias.stf.jus.br/postsnoticias/stf-inclui-dono-da-rede-social-x-no-inquerito-das-milicias-digitais/"},
+{"title": "STF — Pedido de informações sobre a extradição de Allan dos Santos", "date": "2022-03-14", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-pede-informacoes-sobre-extradicao-de-allan-dos-santos-ao-ministerio-da-justica/"},
+{"title": "STF — Referências a investigações anteriores envolvendo Jair Bolsonaro", "date": "2023-01-13", "url": "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pgr-e-incluiu-bolsonaro-em-inquerito-sobre-atos-de-vandalismo-em-brasilia/"},
+{"title": "STF — Pedido sobre doações via Pix encaminhado à Polícia Federal", "date": "2023-11-06", "url": "https://noticias.stf.jus.br/postsnoticias/pedido-de-investigacao-de-envio-de-pix-ao-ex-presidente-jair-bolsonaro-e-encaminhado-a-pf/"},
+{"title": "STF — Arquivamento de investigação contra empresários na PET 10.543", "date": "2023-08-22", "url": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/"},
+{"title": "STF — Acesso aos autos do Inq. 4.781", "date": "2020-06-02", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-assegura-acesso-de-interessados-aos-autos-do-inquerito-que-apura-fake-news/"}
 ]
 },
 {
@@ -2367,6 +2475,7 @@ window.DATA={
 "groups": [
 {
 "title": "Pessoas e vínculos documentados",
+"identifier": "#Inq4878",
 "people": [
 {"name": "Jair Bolsonaro", "profile": "bolsonaro", "relation": "Apontado como sujeito da apuração sobre a divulgação de trechos do inquérito sigiloso durante live em 04/08/2021. O relatório da PF descreveu conduta voluntária, mas não houve indiciamento.", "sources": [0, 1]},
 {"name": "Filipe Barros", "profile": "barros", "relation": "Apontado como sujeito da apuração e participante da divulgação. O relatório da PF descreveu conduta voluntária, mas não houve indiciamento.", "sources": [0]},
@@ -2376,8 +2485,8 @@ window.DATA={
 ],
 "notes": [],
 "sources": [
-{"title": "STF — Relatório da PF sobre vazamento de inquérito encaminhado à PGR", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-encaminha-a-pgr-relatorio-da-pf-sobre-vazamento-de-inquerito-por-bolsonaro/"},
-{"title": "STF — Moraes rejeita pedido da PGR para arquivar inquérito", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-rejeita-pedido-da-pgr-para-arquivar-inquerito-contra-bolsonaro/"}
+{"title": "STF — Relatório da PF sobre vazamento de inquérito encaminhado à PGR", "date": "2022-02-02", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-encaminha-a-pgr-relatorio-da-pf-sobre-vazamento-de-inquerito-por-bolsonaro/"},
+{"title": "STF — Moraes rejeita pedido da PGR para arquivar inquérito", "date": "2022-08-05", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-rejeita-pedido-da-pgr-para-arquivar-inquerito-contra-bolsonaro/"}
 ]
 },
 {
@@ -2388,6 +2497,7 @@ window.DATA={
 "groups": [
 {
 "title": "Apuração sobre os atos de 7 de setembro de 2021",
+"identifier": "#Inq4879",
 "people": [
 {"name": "Otoni de Paula", "relation": "Alvo de busca e apreensão na operação de agosto de 2021.", "sources": [0]},
 {"name": "Sérgio Reis", "relation": "Alvo de busca e apreensão na operação de agosto de 2021.", "sources": [0]},
@@ -2406,6 +2516,7 @@ window.DATA={
 },
 {
 "title": "Linha distinta: atos de 8 de janeiro de 2023",
+"identifier": "#Inq4879",
 "note": "Estes vínculos se referem à apuração de possíveis responsabilidades ou omissões em relação aos atos de 8 de janeiro, não às convocações para 7 de setembro.",
 "people": [
 {"name": "Anderson Torres", "relation": "Investigado em relação a possível responsabilidade ou omissão nos atos de 8 de janeiro.", "sources": [5]},
@@ -2419,13 +2530,56 @@ window.DATA={
 {"text": "A inclusão de Jair Bolsonaro em investigação sobre os atos de 8 de janeiro foi associada pelo STF ao Inq. 4.921, não ao Inq. 4.879.", "sources": [6]}
 ],
 "sources": [
-{"title": "STF — Busca e apreensão em endereços de deputado e cantor", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-busca-e-apreensao-em-enderecos-de-deputado-federal-e-do-cantor-sergio-reis/"},
-{"title": "STF — Diligências para garantir a ordem pública no 7 de setembro", "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-ministro-alexandre-de-moraes-autoriza-diligencias-para-garantir-a-ordem-publica-no-7-de-setembro/"},
-{"title": "STF — Prisão domiciliar para Zé Trovão", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-autoriza-prisao-domiciliar-para-ze-trovao/"},
-{"title": "STF — Revogação de medidas cautelares de Zé Trovão", "url": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-medidas-cautelares-impostas-ao-deputado-ze-trovao/"},
-{"title": "STF — Prisão domiciliar para investigado por atos de 7 de setembro", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-concede-prisao-domiciliar-a-investigado-por-atos-antidemocraticos-de-7-de-setembro/"},
-{"title": "STF — Abertura de inquérito sobre Ibaneis Rocha e Anderson Torres", "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-supremo-determina-abertura-de-inquerito-contra-ibaneis-rocha-e-anderson-torres/"},
-{"title": "STF — Inclusão de Bolsonaro em inquérito sobre atos de vandalismo em Brasília", "url": "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pgr-e-incluiu-bolsonaro-em-inquerito-sobre-atos-de-vandalismo-em-brasilia/"}
+{"title": "STF — Busca e apreensão em endereços de deputado e cantor", "date": "2021-08-20", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-busca-e-apreensao-em-enderecos-de-deputado-federal-e-do-cantor-sergio-reis/"},
+{"title": "STF — Diligências para garantir a ordem pública no 7 de setembro", "date": "2021-09-06", "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-ministro-alexandre-de-moraes-autoriza-diligencias-para-garantir-a-ordem-publica-no-7-de-setembro/"},
+{"title": "STF — Prisão domiciliar para Zé Trovão", "date": "2021-12-17", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-autoriza-prisao-domiciliar-para-ze-trovao/"},
+{"title": "STF — Revogação de medidas cautelares de Zé Trovão", "date": "2023-05-12", "url": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-medidas-cautelares-impostas-ao-deputado-ze-trovao/"},
+{"title": "STF — Prisão domiciliar para investigado por atos de 7 de setembro", "date": "2021-10-15", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-concede-prisao-domiciliar-a-investigado-por-atos-antidemocraticos-de-7-de-setembro/"},
+{"title": "STF — Abertura de inquérito sobre Ibaneis Rocha e Anderson Torres", "date": "2023-01-13", "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-supremo-determina-abertura-de-inquerito-contra-ibaneis-rocha-e-anderson-torres/"},
+{"title": "STF — Inclusão de Bolsonaro em inquérito sobre atos de vandalismo em Brasília", "date": "2023-01-13", "url": "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pgr-e-incluiu-bolsonaro-em-inquerito-sobre-atos-de-vandalismo-em-brasilia/"}
+]
+},
+{
+"id": "5020",
+"title": "Inq. 5.020 — Crime organizado e conexões com agentes públicos",
+"summary": "Conforme o material fornecido pelo usuário, o Inq. 5.020 estaria relacionado à ADPF 635 e apuraria organizações criminosas no Rio de Janeiro e conexões com agentes públicos. O conteúdo abaixo não foi pesquisado nem verificado nesta sessão.",
+"status": "Em apuração segundo o material fornecido pelo usuário; não verificado independentemente. Prisões preventivas e acusações não equivalem a condenação.",
+"peopleLabel": "nomes citados; vínculos não verificados",
+"groups": [
+{
+"title": "Agentes públicos e intermediários citados no resumo",
+"identifier": "#Inq5020",
+"note": "Vínculos, acusações e datas reproduzidos do texto fornecido pelo usuário, sem confirmação independente nem links para autos ou decisões. Trate como alegações, não como fatos judicialmente estabelecidos.",
+"people": [
+{"name": "Marcus Henrique de Oliveira Alves", "profile": "marcus-alves", "handle": "marcus_alves", "measure": "prisao", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Delegado titular da 44ª DP. O resumo fornecido diz que a PF o apontou como um dos líderes de um núcleo policial que protegeria e facilitaria a atuação de lideranças do Comando Vermelho. Relata prisão preventiva decretada por Alexandre de Moraes em março de 2026 e acusação de recebimento de propina. Alegações não verificadas nesta sessão.", "sources": [0]},
+{"name": "Franklin José de Oliveira Alves", "profile": "franklin-alves", "handle": "franklin_alves", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Comissário de polícia e irmão de Marcus. O resumo o descreve como integrante do mesmo núcleo policial investigado e relata prisão preventiva em março de 2026 junto com o irmão. As alegações não foram verificadas nesta sessão.", "sources": [0]},
+{"name": "Leandro Moutinho de Deus", "profile": "leandro-moutinho", "handle": "leandro_moutinho", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Oficial de cartório da Polícia Civil. O resumo fornecido o aponta como intermediário de pagamentos indevidos e informa prisão preventiva em março de 2026. Alegações não verificadas nesta sessão.", "sources": [0]},
+{"name": "Luiz Eduardo Cunha Gonçalves (Dudu)", "profile": "dudu-cunha", "handle": "dudu_cunha", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Ex-assessor parlamentar de TH Joias. O resumo fornecido o descreve como elo entre o mandato e o esquema policial, menciona identificação na Operação Zargun em 2025 e prisão preventiva em março de 2026. Alegações não verificadas nesta sessão.", "sources": [0, 1]},
+{"name": "Alessandro Pitombeira Carracena", "profile": "alessandro-carracena", "handle": "alessandro_carracena", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Advogado e ex-secretário estadual. O resumo fornecido o aponta como articulador político, menciona que foi alvo da Operação Zargun em setembro de 2025 e que depois teve prisão preventiva decretada no Inq. 5.020. Alegações não verificadas nesta sessão.", "sources": [0, 1]}
+]
+},
+{
+"title": "Lideranças do Comando Vermelho citadas no resumo do relatório",
+"identifier": "#Inq5020",
+"note": "O texto fornecido associa estes nomes ao relatório Missão Redentor II encaminhado no contexto da ADPF 635. A inclusão nesta lista não confirma individualmente a situação processual indicada.",
+"people": [
+{"name": "Edgar Alves de Andrade", "profile": "edgar-alves-de-andrade", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Doca ou Urso; o resumo o associa à área do Complexo da Penha e o descreve como foragido e principal liderança mencionada no relatório.", "sources": [2]},
+{"name": "Carlos da Costa Neves", "profile": "carlos-da-costa-neves", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Gardenal; o resumo o associa ao Complexo da Penha e o descreve como foragido.", "sources": [2]},
+{"name": "Pedro Paulo Guedes", "profile": "pedro-paulo-guedes", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Pedro Bala; o resumo o associa ao Complexo da Penha e o descreve como foragido.", "sources": [2]},
+{"name": "Juan Breno Malta", "profile": "juan-breno-malta", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como BMW ou Rex; o resumo o associa ao Complexo da Penha e o descreve como foragido.", "sources": [2]},
+{"name": "Manoel Cinquine Pereira", "profile": "manoel-cinquine-pereira", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Paulista; o resumo o associa ao Complexo da Penha e o descreve como investigado.", "sources": [2]},
+{"name": "Luciano Martiniano da Silva", "profile": "luciano-martiniano-da-silva", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Pezão; o resumo o associa ao Complexo do Alemão e o descreve como investigado.", "sources": [2]}
+]
+}
+],
+"notes": [
+{"text": "Cadastro feito sem pesquisa, conforme solicitado. O usuário não anexou decisões, relatório ou URLs; as referências abaixo registram apenas a origem declarada das informações e não são fontes verificadas. Não interpretar as alegações como condenações ou confirmação independente.", "sources": [0, 1, 2]},
+{"text": "O material fornecido resume a ADPF 635 como a ADPF das Favelas, originalmente relacionada à letalidade policial, e descreve o Inq. 5.020 como investigação sobre organizações criminosas e conexões com agentes públicos. O contexto também não foi verificado nesta sessão."}
+],
+"sources": [
+{"title": "Referência indicada pelo usuário — STF / Polícia Federal, Inq. 5.020. URL ou documento não fornecido; não verificado.", "date": "2026-03"},
+{"title": "Referência indicada pelo usuário — Operação Zargun, STF / Polícia Federal. URL ou documento não fornecido; não verificado.", "date": "2025-09"},
+{"title": "Referência indicada pelo usuário — relatório Missão Redentor II no contexto da ADPF 635. URL ou documento não fornecido; não verificado.", "date": "2026-03"}
 ]
 }
 ],
