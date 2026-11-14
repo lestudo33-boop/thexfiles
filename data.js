@@ -502,6 +502,7 @@ window.DATA={
 "name": "Flávio Bolsonaro",
 "handle": "flavio_bolsonaro",
 "color": "#1565c0",
+"foto": "fotos/flavio.jpg",
 "bio": "Senador pelo RJ.",
 "status": "Citado por Moraes em 15/02/2024 entre investigados com foro nos inquéritos 4.781 e 4.874",
 "crime": "As fontes consultadas não detalham o objeto individual. Moraes o citou ao justificar a competência do STF e a conexão entre inquéritos num caso da PM do DF (Correio Braziliense / DJU). Apuração, sem condenação registrada neste arquivo.",
@@ -535,6 +536,7 @@ window.DATA={
 "name": "Jair Bolsonaro",
 "handle": "jair_bolsonaro",
 "color": "#2e7d32",
+"foto": "fotos/bolsonaro.jpg",
 "bio": "Ex-presidente da República.",
 "status": "Incluído como investigado em 04/08/2021, a pedido do TSE; execução penal em processo separado",
 "crime": "Disseminar, em live de 29/07/2021, suspeitas sem provas de fraude nas urnas eletrônicas. Moraes apontou, em tese, crimes como incitação ao crime (Migalhas). O ex-presidente está em execução penal em processo separado, que a Gazeta do Povo liga ao inquérito por derivação.",
@@ -546,6 +548,7 @@ window.DATA={
 "name": "Abraham Weintraub",
 "handle": "abraham_weintraub",
 "color": "#ff6f00",
+"foto": "fotos/weintraub.jpg",
 "bio": "Ex-ministro da Educação.",
 "status": "Mantido no inquérito por 9 votos a 1 no Plenário (junho/2020)",
 "crime": "Fala na reunião ministerial de 22/04/2020, em que defendeu a prisão de ministros do STF (CartaCapital). Apuração, sem condenação registrada neste arquivo.",
@@ -654,6 +657,7 @@ window.DATA={
 "name": "Romeu Zema",
 "handle": "romeu_zema",
 "color": "#f9a825",
+"foto": "fotos/zema.jpg",
 "bio": "Ex-governador de Minas Gerais (Novo).",
 "status": "Pedido de inclusão feito por Gilmar em abr/2026; PGR o denunciou por calúnia no STJ em maio/2026",
 "crime": "Gilmar alegou que vídeo com bonecos simulando diálogo dele com Toffoli sobre o caso Master atingia a honra dele e do STF. Zema respondeu que não vai parar com as críticas ao Supremo (Gazeta do Povo). Não há registro de inclusão no inquérito.",
@@ -665,10 +669,22 @@ window.DATA={
 "name": "Monark (Bruno Monteiro Aiub)",
 "handle": "monark",
 "color": "#c0ca33",
+"foto": "fotos/monark.jpg",
 "bio": "Influenciador e podcaster, cofundador do Flow Podcast. Seu caso nasceu no inquérito dos atos de 8 de janeiro (Inq. 4.923), não no 4.781. Entra aqui por ser da mesma família de medidas: bloqueio de perfis a partir de relatórios do TSE.",
 "status": "Perfis bloqueados em 2023; multa de R$ 300 mil; inquérito por desobediência arquivado em 28/10/2026",
 "crime": "Suposta divulgação de notícias fraudulentas e ataques ao STF e ao TSE por perfis e canais; depois, suposta desobediência por criar novos canais após o bloqueio. A defesa fala em censura prévia e diz que fake news tem natureza cível. Em 28/10/2026 o inquérito por desobediência foi arquivado, a pedido da PGR, após o pagamento da multa.",
 "crimeTipo": "arquivado"
+},
+{
+"id": "elon",
+"kind": "inv",
+"name": "Elon Musk",
+"handle": "elonmusk",
+"color": "#71767b",
+"bio": "Empresário e proprietário da plataforma X.",
+"status": "Incluído como investigado no Inq. 4.874 em 08/04/2024.",
+"crime": "A inclusão foi determinada pelo STF após declarações sobre o cumprimento de decisões judiciais pela plataforma. A investigação não equivale a condenação.",
+"crimeTipo": "apurado"
 }
 ],
 "posts": [
@@ -2239,6 +2255,177 @@ window.DATA={
 "f": "Gazeta do Povo / SBT News / A Crítica",
 "u": "https://sbtnews.sbt.com.br/noticia/brasil/moraes-arquiva-inquerito-contra-influenciador-monark"
 }
+]
+},
+{
+"id": "elon-musk-4874",
+"user": "elon",
+"date": "2024-04-08",
+"medida": "investigado",
+"texto": "Por decisão do STF, Elon Musk foi incluído como investigado no Inquérito 4.874 (milícias digitais), após declarações sobre o cumprimento de decisões judiciais pela plataforma X.",
+"fonte": "STF — Inclusão do dono da rede social X no Inq. das milícias digitais",
+"url": "https://noticias.stf.jus.br/postsnoticias/stf-inclui-dono-da-rede-social-x-no-inquerito-das-milicias-digitais/",
+"passos": [
+{
+"a": "moraes",
+"d": "2024-04-08",
+"t": "Determina a inclusão do dono da rede X como investigado no Inq. 4.874.",
+"k": "investigado",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/stf-inclui-dono-da-rede-social-x-no-inquerito-das-milicias-digitais/"
+}
+]
+}
+],
+"inquiries": [
+{
+"id": "4828",
+"title": "Inq. 4.828 — Atos antidemocráticos de 2020",
+"summary": "Investigação sobre a organização de manifestações antidemocráticas, incluindo o episódio dos fogos de artifício contra o STF, em junho de 2020.",
+"status": "Arquivado em 1º/07/2021, a pedido da PGR. Medidas cautelares foram revogadas. O STF determinou a abertura do Inq. 4.874 para apurar outra linha investigativa.",
+"groups": [
+{
+"title": "Pessoas submetidas a medidas cautelares",
+"note": "As medidas foram revogadas com o arquivamento do inquérito.",
+"people": [
+{"name": "Sara Fernanda Giromini (Sara Winter)", "profile": "sara", "relation": "Teve medidas cautelares impostas no inquérito; revogadas no arquivamento.", "sources": [0]},
+{"name": "Oswaldo Eustáquio Filho", "profile": "eustaquio", "relation": "Teve medidas cautelares e ordem de prisão temporária renovada em junho de 2020.", "sources": [0, 1]},
+{"name": "Renan de Morais Souza", "relation": "Teve medidas cautelares revogadas no arquivamento.", "sources": [0]},
+{"name": "Érica Viana de Souza", "relation": "Teve medidas cautelares revogadas no arquivamento.", "sources": [0]},
+{"name": "Emerson Rui Barros dos Santos", "relation": "Teve medidas cautelares revogadas no arquivamento.", "sources": [0]},
+{"name": "Arthur Castro", "relation": "Teve medidas cautelares revogadas no arquivamento.", "sources": [0]},
+{"name": "Daniel Miguel", "relation": "Teve medidas cautelares revogadas no arquivamento.", "sources": [0]}
+]
+},
+{
+"title": "Alvos de quebra de sigilo financeiro",
+"note": "A diligência é registrada como medida de investigação e não implica culpa ou permanência como investigado até o encerramento.",
+"people": [
+{"name": "Bia Kicis", "profile": "kicis", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Carla Zambelli", "profile": "zambelli", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Daniel Silveira", "profile": "silveira", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Aline Sleutjes", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Arolde de Oliveira", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Eliéser Girão (General Girão)", "profile": "girao", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]}
+]
+}
+],
+"notes": [
+{"text": "Não atribuímos vínculo específico a Otávio Fakhoury neste inquérito: as fontes consultadas o mencionam em contexto de acesso aos autos do Inq. 4.781, o que não comprova participação no Inq. 4.828.", "sources": [4]},
+{"text": "O vínculo de Otoni de Paula com quebra de sigilo no Inq. 4.828 não foi confirmado nas fontes listadas; por isso, não é apresentado como alvo dessa diligência."}
+],
+"sources": [
+{"title": "STF — Inquérito arquivado e abertura de investigação sobre organização criminosa", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"},
+{"title": "STF — Decisão sobre prisão de investigado no inquérito das manifestações antidemocráticas", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-divulga-integra-de-decisao-sobre-prisao-de-investigado-no-inquerito-das-manifestacoes-antidemocraticas/"},
+{"title": "CNN Brasil — Deputados e senador tiveram sigilos quebrados", "url": "https://www.cnnbrasil.com.br/politica/dez-deputados-federais-e-um-senador-tiveram-sigilos-quebrados/"},
+{"title": "STF — Decisão no inquérito sobre manifestações antidemocráticas", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-divulga-integra-de-decisao-no-inquerito-sobre-manifestacoes-antidemocraticas/"},
+{"title": "STF — Acesso aos autos do inquérito das fake news", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-assegura-acesso-de-interessados-aos-autos-do-inquerito-que-apura-fake-news/"}
+]
+},
+{
+"id": "4874",
+"title": "Inq. 4.874 — Milícias digitais",
+"summary": "Investigação sobre possível organização de milícias digitais, sua atuação, organização e financiamento, e ataques às instituições democráticas.",
+"status": "A situação final não foi confirmada nas fontes consultadas. Em abril de 2024, o STF determinou a inclusão de Elon Musk como investigado.",
+"groups": [
+{
+"title": "Vínculos documentados no Inq. 4.874",
+"people": [
+{"name": "Allan dos Santos", "profile": "allan", "relation": "Investigado no Inq. 4.874; o STF noticiou ordem de prisão preventiva e providências relacionadas à extradição.", "sources": [1]},
+{"name": "Elon Musk", "profile": "elon", "relation": "Incluído como investigado por decisão do STF em abril de 2024.", "sources": [0]},
+{"name": "Jair Bolsonaro", "profile": "bolsonaro", "relation": "O STF o menciona entre pessoas investigadas em procedimentos anteriores, incluindo os Inqs. 4.874 e 4.878. Pedido posterior sobre doações via Pix foi enviado à PF para avaliar possível conexão; isso não é conclusão sobre o caso.", "sources": [2, 3]}
+]
+},
+{
+"title": "Procedimento distinto relacionado ao tema — PET 10.543",
+"note": "Não confundir esta apuração sobre empresários com o Inq. 4.874.",
+"people": [
+{"name": "Luciano Hang", "profile": "hang", "relation": "Permaneceu sob investigação na PET 10.543 em agosto de 2023.", "sources": [4]},
+{"name": "Meyer Joseph Nigri", "relation": "Permaneceu sob investigação na PET 10.543 em agosto de 2023.", "sources": [4]},
+{"name": "Ivan Wrobel", "relation": "Foi um dos empresários cuja investigação na PET 10.543 foi arquivada em agosto de 2023.", "sources": [4]}
+]
+}
+],
+"notes": [
+{"text": "Não foi confirmado vínculo individual de Otávio Fakhoury ou Fábio Wajngarten com o Inq. 4.874 nas fontes consultadas. O acesso de advogados de Fakhoury ao Inq. 4.781 não o torna alvo deste outro inquérito.", "sources": [5]},
+{"text": "Sara Winter e Oswaldo Eustáquio aparecem em listas públicas associadas ao tema, mas não foram confirmados como investigados do Inq. 4.874 nas fontes consultadas."}
+],
+"sources": [
+{"title": "STF — Inclusão do dono da rede social X no inquérito das milícias digitais", "url": "https://noticias.stf.jus.br/postsnoticias/stf-inclui-dono-da-rede-social-x-no-inquerito-das-milicias-digitais/"},
+{"title": "STF — Pedido de informações sobre a extradição de Allan dos Santos", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-pede-informacoes-sobre-extradicao-de-allan-dos-santos-ao-ministerio-da-justica/"},
+{"title": "STF — Referências a investigações anteriores envolvendo Jair Bolsonaro", "url": "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pgr-e-incluiu-bolsonaro-em-inquerito-sobre-atos-de-vandalismo-em-brasilia/"},
+{"title": "STF — Pedido sobre doações via Pix encaminhado à Polícia Federal", "url": "https://noticias.stf.jus.br/postsnoticias/pedido-de-investigacao-de-envio-de-pix-ao-ex-presidente-jair-bolsonaro-e-encaminhado-a-pf/"},
+{"title": "STF — Arquivamento de investigação contra empresários na PET 10.543", "url": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/"},
+{"title": "STF — Acesso aos autos do Inq. 4.781", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-assegura-acesso-de-interessados-aos-autos-do-inquerito-que-apura-fake-news/"}
+]
+},
+{
+"id": "4878",
+"title": "Inq. 4.878 — Divulgação de investigação sigilosa sobre ataque ao TSE",
+"summary": "Apuração sobre a divulgação, em live e nas redes sociais, de informações de um inquérito sigiloso da Polícia Federal que investigava um ataque hacker ao TSE.",
+"status": "Em agosto de 2022, Alexandre de Moraes rejeitou pedido da PGR para arquivar o inquérito e informou que diligências ainda estavam em andamento. A decisão final não foi confirmada nas fontes consultadas.",
+"groups": [
+{
+"title": "Pessoas e vínculos documentados",
+"people": [
+{"name": "Jair Bolsonaro", "profile": "bolsonaro", "relation": "Apontado como sujeito da apuração sobre a divulgação de trechos do inquérito sigiloso durante live em 04/08/2021. O relatório da PF descreveu conduta voluntária, mas não houve indiciamento.", "sources": [0, 1]},
+{"name": "Filipe Barros", "profile": "barros", "relation": "Apontado como sujeito da apuração e participante da divulgação. O relatório da PF descreveu conduta voluntária, mas não houve indiciamento.", "sources": [0]},
+{"name": "Victor Neves Feitosa Campos", "relation": "Mencionado na notícia-crime inicial encaminhada pelo TSE; as fontes consultadas não confirmam contra ele conclusão ou medida equivalente às descritas para Bolsonaro e Filipe Barros.", "sources": [0]}
+]
+}
+],
+"notes": [],
+"sources": [
+{"title": "STF — Relatório da PF sobre vazamento de inquérito encaminhado à PGR", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-encaminha-a-pgr-relatorio-da-pf-sobre-vazamento-de-inquerito-por-bolsonaro/"},
+{"title": "STF — Moraes rejeita pedido da PGR para arquivar inquérito", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-rejeita-pedido-da-pgr-para-arquivar-inquerito-contra-bolsonaro/"}
+]
+},
+{
+"id": "4879",
+"title": "Inq. 4.879 — Atos antidemocráticos de 7 de setembro de 2021",
+"summary": "Apuração sobre convocações, pelas redes sociais, de manifestações que, segundo a PGR, poderiam envolver incitação à violência e ataques às instituições. O inquérito também recebeu uma linha distinta sobre os atos de 8 de janeiro de 2023.",
+"status": "Não foi localizada decisão oficial de encerramento nas fontes consultadas. Os últimos atos confirmados aqui são de 2023; isso, por si só, não confirma a situação atual do inquérito.",
+"groups": [
+{
+"title": "Apuração sobre os atos de 7 de setembro de 2021",
+"people": [
+{"name": "Otoni de Paula", "relation": "Alvo de busca e apreensão na operação de agosto de 2021.", "sources": [0]},
+{"name": "Sérgio Reis", "relation": "Alvo de busca e apreensão na operação de agosto de 2021.", "sources": [0]},
+{"name": "Marcio Giovani Niquelatti (Professor Marcinho)", "relation": "Teve prisão preventiva decretada e executada em setembro de 2021.", "sources": [1]},
+{"name": "Cássio Rodrigues de Souza", "relation": "Teve prisão preventiva decretada e executada em setembro de 2021.", "sources": [1]},
+{"name": "Gilmar João Alba", "relation": "Foi alvo de busca e apreensão; a notícia oficial descreve uma suspeita investigada, não uma conclusão de culpa.", "sources": [1]},
+{"name": "Marcos Antônio Pereira Gomes (Zé Trovão)", "relation": "Investigado no Inq. 4.879; teve prisão preventiva decretada, depois passou à prisão domiciliar e a outras cautelares, revogadas em maio de 2023.", "sources": [0, 2, 3]},
+{"name": "Antônio Galvan", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
+{"name": "Wellington Macedo de Souza", "relation": "Investigado; posteriormente recebeu prisão domiciliar com restrições.", "sources": [0, 4]},
+{"name": "Turíbio Torres", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
+{"name": "Juliano da Silva Martins", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
+{"name": "Alexandre Urbano Raitz Petersen", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
+{"name": "Bruno Henrique Semczeszm", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
+{"name": "Eduardo Oliveira Araújo", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]}
+]
+},
+{
+"title": "Linha distinta: atos de 8 de janeiro de 2023",
+"note": "Estes vínculos se referem à apuração de possíveis responsabilidades ou omissões em relação aos atos de 8 de janeiro, não às convocações para 7 de setembro.",
+"people": [
+{"name": "Anderson Torres", "relation": "Investigado em relação a possível responsabilidade ou omissão nos atos de 8 de janeiro.", "sources": [5]},
+{"name": "Ibaneis Rocha", "relation": "Investigado em relação a possível responsabilidade ou omissão nos atos de 8 de janeiro.", "sources": [5]},
+{"name": "Fernando de Sousa Oliveira", "relation": "Mencionado pela notícia oficial na mesma apuração sobre os atos de 8 de janeiro.", "sources": [5]},
+{"name": "Fábio Vieira", "relation": "Mencionado pela notícia oficial na mesma apuração sobre os atos de 8 de janeiro.", "sources": [5]}
+]
+}
+],
+"notes": [
+{"text": "A inclusão de Jair Bolsonaro em investigação sobre os atos de 8 de janeiro foi associada pelo STF ao Inq. 4.921, não ao Inq. 4.879.", "sources": [6]}
+],
+"sources": [
+{"title": "STF — Busca e apreensão em endereços de deputado e cantor", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-busca-e-apreensao-em-enderecos-de-deputado-federal-e-do-cantor-sergio-reis/"},
+{"title": "STF — Diligências para garantir a ordem pública no 7 de setembro", "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-ministro-alexandre-de-moraes-autoriza-diligencias-para-garantir-a-ordem-publica-no-7-de-setembro/"},
+{"title": "STF — Prisão domiciliar para Zé Trovão", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-autoriza-prisao-domiciliar-para-ze-trovao/"},
+{"title": "STF — Revogação de medidas cautelares de Zé Trovão", "url": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-medidas-cautelares-impostas-ao-deputado-ze-trovao/"},
+{"title": "STF — Prisão domiciliar para investigado por atos de 7 de setembro", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-concede-prisao-domiciliar-a-investigado-por-atos-antidemocraticos-de-7-de-setembro/"},
+{"title": "STF — Abertura de inquérito sobre Ibaneis Rocha e Anderson Torres", "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-supremo-determina-abertura-de-inquerito-contra-ibaneis-rocha-e-anderson-torres/"},
+{"title": "STF — Inclusão de Bolsonaro em inquérito sobre atos de vandalismo em Brasília", "url": "https://noticias.stf.jus.br/postsnoticias/stf-atende-a-pedido-da-pgr-e-incluiu-bolsonaro-em-inquerito-sobre-atos-de-vandalismo-em-brasilia/"}
 ]
 }
 ],
