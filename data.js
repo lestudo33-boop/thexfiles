@@ -449,6 +449,7 @@ window.DATA={
 "kind": "inv",
 "name": "Carla Zambelli",
 "handle": "carla_zambelli",
+"foto": "fotos/carla-zambeli.webp",
 "color": "#8e24aa",
 "bio": "Deputada federal por SP (PSL à época da operação de 2020).",
 "status": "Intimada a depor em 27/05/2020; sigilo bancário quebrado em 16/06/2020 (inquérito dos atos antidemocráticos)",
@@ -734,7 +735,7 @@ window.DATA={
 "handle": "alessandro_carracena",
 "color": "#5d4037",
 "bio": "Advogado e ex-secretário estadual. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
-"status": "Prisão preventiva no Inq. 5.020, segundo resumo fornecido pelo usuário; não verificado."
+"status": "Prisão preventiva decretada em 06/03/2026 na Petição 15.620/DF; decisões posteriores registradas na thread."
 },
 {
 "id": "edgar-alves-de-andrade",
@@ -866,6 +867,13 @@ window.DATA={
 "t": "Arquiva o inquérito-mãe a pedido da PGR. Condenações já proferidas e ações penais em curso não são anuladas.",
 "k": "arquivamento",
 "f": "Gazeta do Povo / Migalhas"
+}
+],
+"notes": [
+{
+"text": "Contexto publicado em 13/11/2026: a reportagem relata que a parte liberada dos autos, identificada como Apenso 70, reúne três relatórios (133 páginas) sobre publicações críticas ao STF, incluindo pedidos de impeachment. Segundo a matéria, o então procurador-geral Augusto Aras considerou as manifestações opiniões protegidas pela liberdade de expressão e se opôs às buscas e demais medidas; Moraes as autorizou. A reportagem também informa que o inquérito gerou 104 procedimentos autônomos. Síntese atribuída à reportagem; os documentos originais não foram conferidos nesta atualização.",
+"source": "Gazeta do Povo — Renan Ramalho, 13/11/2026",
+"url": "https://www.gazetadopovo.com.br/republica/influenciadores-foram-censurados-por-moraes-por-defender-impeachment-de-ministros-do-stf/"
 }
 ]
 },
@@ -2379,6 +2387,46 @@ window.DATA={
 "u": "https://noticias.stf.jus.br/postsnoticias/stf-inclui-dono-da-rede-social-x-no-inquerito-das-milicias-digitais/"
 }
 ]
+},
+{
+"id": "pet-15620-alessandro",
+"user": "alessandro-carracena",
+"date": "2026-03-06",
+"medida": "prisao",
+"texto": "Decisões e movimentações da Petição 15.620/DF relacionadas à prisão preventiva de Alessandro Pitombeira Carracena. Os registros não representam condenação.",
+"fonte": "STF — Decisão na Petição 15.620/DF",
+"url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/03/11215852/PET-15620-decisao-2-1.pdf",
+"passos": [
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "Decreta a prisão preventiva de Alessandro Carracena e de outros investigados na Petição 15.620/DF.",
+"k": "prisao",
+"f": "STF — Decisão na Petição 15.620/DF",
+"u": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/03/11215852/PET-15620-decisao-2-1.pdf"
+},
+{
+"a": "moraes",
+"d": "2026-06-08",
+"t": "Mantém a prisão preventiva de Alessandro Carracena.",
+"k": "decisao",
+"f": "Acompanhamento processual da Pet. 15.620 (data e conteúdo informados pelo usuário; link não fornecido)"
+},
+{
+"a": "moraes",
+"d": "2026-07-30",
+"t": "Profere nova decisão mantendo a prisão preventiva de Alessandro Carracena.",
+"k": "decisao",
+"f": "Acompanhamento processual da Pet. 15.620 (data e conteúdo informados pelo usuário; link não fornecido)"
+},
+{
+"a": "moraes",
+"d": "2026-11-10",
+"t": "Julga prejudicado agravo regimental relacionado à Petição 15.620.",
+"k": "decisao",
+"f": "Acompanhamento processual da Pet. 15.620 (data e conteúdo informados pelo usuário; link não fornecido)"
+}
+]
 }
 ],
 "inquiries": [
@@ -2549,13 +2597,13 @@ window.DATA={
 {
 "title": "Agentes públicos e intermediários citados no resumo",
 "identifier": "#Inq5020",
-"note": "Vínculos, acusações e datas reproduzidos do texto fornecido pelo usuário, sem confirmação independente nem links para autos ou decisões. Trate como alegações, não como fatos judicialmente estabelecidos.",
+"note": "Os vínculos e alegações reproduzidos do resumo fornecido pelo usuário não foram verificados independentemente. Para Alessandro, a decisão de prisão está vinculada ao PDF do STF; as movimentações posteriores foram informadas pelo usuário e não têm links do acompanhamento processual.",
 "people": [
 {"name": "Marcus Henrique de Oliveira Alves", "profile": "marcus-alves", "handle": "marcus_alves", "measure": "prisao", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Delegado titular da 44ª DP. O resumo fornecido diz que a PF o apontou como um dos líderes de um núcleo policial que protegeria e facilitaria a atuação de lideranças do Comando Vermelho. Relata prisão preventiva decretada por Alexandre de Moraes em março de 2026 e acusação de recebimento de propina. Alegações não verificadas nesta sessão.", "sources": [0]},
 {"name": "Franklin José de Oliveira Alves", "profile": "franklin-alves", "handle": "franklin_alves", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Comissário de polícia e irmão de Marcus. O resumo o descreve como integrante do mesmo núcleo policial investigado e relata prisão preventiva em março de 2026 junto com o irmão. As alegações não foram verificadas nesta sessão.", "sources": [0]},
 {"name": "Leandro Moutinho de Deus", "profile": "leandro-moutinho", "handle": "leandro_moutinho", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Oficial de cartório da Polícia Civil. O resumo fornecido o aponta como intermediário de pagamentos indevidos e informa prisão preventiva em março de 2026. Alegações não verificadas nesta sessão.", "sources": [0]},
 {"name": "Luiz Eduardo Cunha Gonçalves (Dudu)", "profile": "dudu-cunha", "handle": "dudu_cunha", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Ex-assessor parlamentar de TH Joias. O resumo fornecido o descreve como elo entre o mandato e o esquema policial, menciona identificação na Operação Zargun em 2025 e prisão preventiva em março de 2026. Alegações não verificadas nesta sessão.", "sources": [0, 1]},
-{"name": "Alessandro Pitombeira Carracena", "profile": "alessandro-carracena", "handle": "alessandro_carracena", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Advogado e ex-secretário estadual. O resumo fornecido o aponta como articulador político, menciona que foi alvo da Operação Zargun em setembro de 2025 e que depois teve prisão preventiva decretada no Inq. 5.020. Alegações não verificadas nesta sessão.", "sources": [0, 1]}
+{"name": "Alessandro Pitombeira Carracena", "profile": "alessandro-carracena", "handle": "alessandro_carracena", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Advogado e ex-secretário estadual citado na investigação. Consulte a thread de andamentos da Petição 15.620/DF no perfil.", "sources": [0, 1, 3]}
 ]
 },
 {
@@ -2573,13 +2621,17 @@ window.DATA={
 }
 ],
 "notes": [
-{"text": "Cadastro feito sem pesquisa, conforme solicitado. O usuário não anexou decisões, relatório ou URLs; as referências abaixo registram apenas a origem declarada das informações e não são fontes verificadas. Não interpretar as alegações como condenações ou confirmação independente.", "sources": [0, 1, 2]},
+{"text": "Os vínculos e alegações originalmente cadastrados foram reproduzidos de material fornecido pelo usuário e não foram verificados independentemente. A decisão de 06/03/2026 está vinculada ao PDF oficial do STF; as movimentações de 08/06, 30/07 e 10/11/2026 foram informadas pelo usuário e não puderam ser conferidas sem links aos andamentos. Prisões e investigações não equivalem a condenação.", "sources": [0, 1, 2, 3, 4, 5, 6]},
 {"text": "O material fornecido resume a ADPF 635 como a ADPF das Favelas, originalmente relacionada à letalidade policial, e descreve o Inq. 5.020 como investigação sobre organizações criminosas e conexões com agentes públicos. O contexto também não foi verificado nesta sessão."}
 ],
 "sources": [
 {"title": "Referência indicada pelo usuário — STF / Polícia Federal, Inq. 5.020. URL ou documento não fornecido; não verificado.", "date": "2026-03"},
 {"title": "Referência indicada pelo usuário — Operação Zargun, STF / Polícia Federal. URL ou documento não fornecido; não verificado.", "date": "2025-09"},
-{"title": "Referência indicada pelo usuário — relatório Missão Redentor II no contexto da ADPF 635. URL ou documento não fornecido; não verificado.", "date": "2026-03"}
+{"title": "Referência indicada pelo usuário — relatório Missão Redentor II no contexto da ADPF 635. URL ou documento não fornecido; não verificado.", "date": "2026-03"},
+{"title": "STF — Decisão na Petição 15.620/DF que decreta prisões preventivas", "date": "2026-03-06", "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/03/11215852/PET-15620-decisao-2-1.pdf"},
+{"title": "Acompanhamento processual da Petição 15.620 — andamento de 08/06/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-06-08"},
+{"title": "Acompanhamento processual da Petição 15.620 — andamento de 30/07/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-07-30"},
+{"title": "Acompanhamento processual da Petição 15.620 — andamento de 10/11/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-11-10"}
 ]
 }
 ],

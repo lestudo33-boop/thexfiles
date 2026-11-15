@@ -26,7 +26,7 @@ function Post({x,open,toggle,liked,like,detail,caseTags=[]}){const p=B[x.user],n
     <button className=${"ab l"+(liked?" on":"")} onClick=${like} aria-label="Curtir"><${Ic} n="l"/></button>
     ${!detail&&html`<a className="ab open" href=${"#/p/"+x.id}>Abrir processo</a>`}
    </div></div></div>
- ${open&&html`<div className="thread">${x.passos.map((s,i)=>html`<${Step} key=${i} s=${s} root=${x.user} last=${i==x.passos.length-1}/>`)}</div>`}
+ ${open&&html`<div className="thread">${x.passos.map((s,i)=>html`<${Step} key=${i} s=${s} root=${x.user} last=${i==x.passos.length-1}/>`)}${(x.notes||[]).map((note,i)=>html`<div key=${"note-"+i} className="case-note"><span>${note.text}</span><div>Fonte: <a href=${note.url} target="_blank" rel="noopener noreferrer">${note.source}</a></div></div>`)}</div>`}
  </article>`}
 const Head=({t,sub,back,home,backTo})=>html`<div className=${"top"+(home?" home-heading":"")}>${back&&html`<a className="back" href=${backTo||"#/"} aria-label="Voltar"><${Ic} n="b"/></a>`}<div className="tt"><h1>${t}</h1>${sub&&html`<small>${sub}</small>`}</div></div>`;
 const years=[...new Set([...D.posts.flatMap(x=>[x.date,...x.passos.map(s=>s.d)]),...D.inquiries.flatMap(x=>x.sources.map(s=>s.date).filter(Boolean))].map(d=>d.slice(0,4)))].sort();
