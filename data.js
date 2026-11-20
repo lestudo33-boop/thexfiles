@@ -68,9 +68,9 @@ window.DATA={
 "handle": "daniel_silveira",
 "color": "#1d9bf0",
 "bio": "Ex-deputado federal (PSL/RJ).",
-"status": "Prisão decretada em 16/02/2021; condenado pelo STF em 2022",
+"status": "Condenado pelo STF em 2022; em regime aberto desde setembro de 2025. Moraes arquivou em 16/11/2026 o Inq. 4.898 sobre desobediência",
 "foto": "fotos/silveira.jpg",
-"crime": "Coação no curso do processo e ameaça ao Estado Democrático de Direito: condenado pelo STF em 2022 (8 anos e 9 meses). Conferir na decisão original.",
+"crime": "Coação no curso do processo e ameaça ao Estado Democrático de Direito: condenado pelo STF em 2022 (8 anos e 9 meses). A pena continua válida e o regime aberto foi mantido em 2026. A PGR pediu e Moraes determinou o arquivamento do Inq. 4.898, sobre descumprimento de cautelares, em 16/11/2026.",
 "crimeTipo": "condenado"
 },
 {
@@ -161,7 +161,7 @@ window.DATA={
 "handle": "alexandre_de_moraes",
 "color": "#5c6bc0",
 "role": "Ministro do STF · relator até 09/09/2026",
-"bio": "Ministro do STF desde março de 2017. Foi relator do Inq. 4.781 de 2019 até 09/09/2026, por indicação de Toffoli.",
+"bio": "Ministro do STF desde março de 2017. Foi relator do Inq. 4.781 de 2019 até 09/09/2026, por indicação de Toffoli. Em 16/11/2026, arquivou o Inq. 4.898 contra Daniel Silveira por desobediência; em 18/11/2026, arquivou a investigação contra Carla Zambelli por suposta incitação à intervenção militar.",
 "foto": "fotos/moraes.jpg",
 "since": "Ministro do STF desde 2017"
 },
@@ -451,10 +451,10 @@ window.DATA={
 "handle": "carla_zambelli",
 "foto": "fotos/carla-zambeli.webp",
 "color": "#8e24aa",
-"bio": "Deputada federal por SP (PSL à época da operação de 2020).",
-"status": "Intimada a depor em 27/05/2020; sigilo bancário quebrado em 16/06/2020 (inquérito dos atos antidemocráticos)",
-"crime": "Investigada por publicações contra o STF. A Folha PE cita posts em que ela prometia pedir impeachment de ministros e acusava Moraes de atuar para derrubar Bolsonaro. Apuração, sem condenação registrada neste arquivo.",
-"crimeTipo": "apurado"
+"bio": "Ex-deputada federal por SP. Investigada em inquéritos sobre atos antidemocráticos e publicações contra o STF.",
+"status": "Arquivamento por prescrição determinado por Moraes em 18/11/2026; investigação anterior com sanções também já apurada",
+"crime": "Investigada por postagens entre 2022 e janeiro de 2023 defendendo intervenção militar e supostamente incitando animosidade das Forças Armadas contra os Poderes Constitucionais. Em 18/11/2026, Moraes seguiu parecer da PGR e arquivou os autos por prescrição do prazo de três anos.",
+"crimeTipo": "arquivado"
 },
 {
 "id": "barros",
@@ -1193,6 +1193,46 @@ window.DATA={
 "k": "decisao",
 "f": "STF",
 "c": true
+},
+{
+"a": "moraes",
+"d": "2025-09",
+"t": "Autoriza a progressão de Daniel Silveira para o regime aberto, mantendo tornozeleira eletrônica, recolhimento domiciliar em horários definidos e proibição de uso de redes sociais.",
+"k": "decisao",
+"f": "G1",
+"u": "https://g1.globo.com/busca/?q=Daniel%20Silveira%20regime%20aberto"
+},
+{
+"a": "moraes",
+"d": "2026-06",
+"t": "Autoriza Silveira a permanecer no Rio de Janeiro durante dias úteis por vínculo profissional, exigindo que os fins de semana e feriados sejam cumpridos em Petrópolis.",
+"k": "decisao",
+"f": "G1",
+"u": "https://g1.globo.com/busca/?q=Daniel%20Silveira%20Petrópolis%20Rio%20de%20Janeiro"
+},
+{
+"a": "moraes",
+"d": "2026-11-13",
+"t": "Mantém a tornozeleira eletrônica, nega autorização para entrevista no Iron Talks e determina que Silveira volte a cumprir a pena em sua residência familiar em Petrópolis.",
+"k": "decisao",
+"f": "G1",
+"u": "https://g1.globo.com/busca/?q=Daniel%20Silveira%20tornozeleira%20Iron%20Talks"
+},
+{
+"a": "pgr",
+"d": "2026-11-16",
+"t": "Pede o arquivamento do Inq. 4.898. A PGR entende que as violações às cautelares já foram punidas com sanções processuais, incluindo multa superior a R$ 4 milhões e prisão preventiva.",
+"k": "arquivamento",
+"f": "G1",
+"u": "https://g1.globo.com/busca/?q=Daniel%20Silveira%20Inquérito%204898"
+},
+{
+"a": "moraes",
+"d": "2026-11-16",
+"t": "Arquiva o Inq. 4.898, aberto em 2022 para apurar desobediência às cautelares. A decisão não interfere na condenação de 8 anos e 9 meses nem na execução penal e admite reabertura caso surjam novas provas.",
+"k": "arquivamento",
+"f": "G1",
+"u": "https://g1.globo.com/busca/?q=Daniel%20Silveira%20Inquérito%204898"
 }
 ]
 },
@@ -1744,6 +1784,38 @@ window.DATA={
 "k": "investigado",
 "f": "Correio Braziliense (DJU)",
 "u": "https://edicao.correiobraziliense.com.br/correiobraziliense/2024/02/15/1741cf/pdf/J01-DJU-1502-DIG.pdf"
+},
+{
+"a": "moraes",
+"d": "2024-11",
+"t": "Intima as redes sociais X, YouTube/Google, Facebook, Telegram, TikTok, Gettr, WhatsApp e LinkedIn para informar a possibilidade de fornecimento do conteúdo publicado por Zambelli.",
+"k": "investigado",
+"f": "Agência Estado / UOL",
+"u": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/19/moraes-arquiva-investigacao-contra-carla-zambelli-por-defender-intervencao-militar.htm"
+},
+{
+"a": "pf",
+"d": "2025-01",
+"t": "Solicita a prorrogação do prazo para a conclusão do inquérito sobre as postagens da ex-deputada.",
+"k": "investigado",
+"f": "Agência Estado / UOL",
+"u": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/19/moraes-arquiva-investigacao-contra-carla-zambelli-por-defender-intervencao-militar.htm"
+},
+{
+"a": "pgr",
+"d": "2026-11-17",
+"t": "Conclui que há indicativos de envolvimento em incitação à animosidade das Forças Armadas contra os Poderes Constitucionais, mas pede a extinção dos autos por prescrição.",
+"k": "decisao",
+"f": "Agência Estado / UOL",
+"u": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/19/moraes-arquiva-investigacao-contra-carla-zambelli-por-defender-intervencao-militar.htm"
+},
+{
+"a": "moraes",
+"d": "2026-11-18",
+"t": "Arquiva a investigação por prescrição. Moraes afirma que as postagens ocorreram entre o fim de 2022 e janeiro de 2023 e que o prazo prescricional de três anos para a tipificação já havia transcorrido.",
+"k": "arquivamento",
+"f": "Agência Estado / UOL",
+"u": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/19/moraes-arquiva-investigacao-contra-carla-zambelli-por-defender-intervencao-militar.htm"
 }
 ]
 },
