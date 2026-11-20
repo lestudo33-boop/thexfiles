@@ -683,27 +683,7 @@ aside{
   .report-fine{flex-direction:column}
 }
 
-.thread-explainer{
-  width:calc(100% - 84px);
-  min-height:48px;
-  display:flex;
-  align-items:center;
-  gap:10px;
-  margin:8px 16px 2px 68px;
-  padding:8px 12px;
-  border:1px solid #2f3336;
-  border-radius:12px;
-  background:#101214;
-  color:#e7e9ea;
-  text-align:left;
-  cursor:pointer;
-  transition:background-color .12s ease,border-color .12s ease;
-}
-.thread-explainer:hover{background:#16181c;border-color:#1d9bf0}
-.thread-explainer:focus-visible,.explain-close:focus-visible,.explain-retry:focus-visible{outline:2px solid #1d9bf0;outline-offset:2px}
-.thread-explainer img{width:28px;height:28px;flex:none;border-radius:50%}
-.thread-explainer span{font-size:13px;font-weight:700}
-.thread-explainer small{margin-left:auto;color:#71767b;font-size:12px}
+.explain-close:focus-visible,.explain-retry:focus-visible{outline:2px solid #1d9bf0;outline-offset:2px}
 .post-heading{display:flex;align-items:center;gap:4px;min-width:0}
 .post-heading>.line{flex:1}
 .post-tools{display:flex;align-items:center;gap:2px;flex:none;margin-top:-3px}
@@ -757,7 +737,6 @@ aside{
 .explain-retry:hover{background:#202427;border-color:#1d9bf0}
 .explain-disclaimer{margin:0 20px 18px;padding-top:12px;border-top:1px solid #2f3336;color:#71767b;font-size:12px;line-height:1.5}
 @media(max-width:700px){
-  .thread-explainer{width:calc(100% - 24px);margin:8px 12px 2px}
   .explain-backdrop{align-items:end;padding:0}
   .explain-modal{width:100%;max-height:min(88vh,760px);border-radius:18px 18px 0 0;padding-bottom:env(safe-area-inset-bottom)}
 }

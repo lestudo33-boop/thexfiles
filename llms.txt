@@ -1,0 +1,88 @@
+# The Xandão-Files
+
+> Arquivo público em português sobre processos, decisões, inquéritos e pessoas investigadas no Supremo Tribunal Federal. Não é um veículo oficial do STF e não representa contas reais de autoridades.
+
+## Finalidade
+
+O projeto organiza registros públicos em um feed estilizado como rede social, mantendo uma separação clara entre fatos publicados, hipóteses investigativas, decisões cautelares, condenações e arquivamentos.
+
+## Navegação
+
+- Página inicial: /
+- Inquéritos: /#/inqueritos
+- Perfis: /#/perfis
+- Linha do tempo do Inq. 4.781: /#/inquerito
+- Processo individual: /#/p/<id>
+- Perfil individual: /#/perfil/<id>
+- Detalhe de inquérito conexo: /#/caso/<id>
+
+## Inq. 5.020
+
+O Inq. 5.020 apura, segundo representação da Polícia Federal acolhida por Alexandre de Moraes, conexões entre agentes públicos e organizações criminosas no Rio de Janeiro.
+
+As informações sobre Franklin José de Oliveira Alves devem ser tratadas como hipóteses investigativas, não como condenação. Em 6 de março de 2026, Moraes teria determinado prisão preventiva, afastamento da função pública, buscas e apreensões, afastamento do sigilo telefônico e indisponibilidade patrimonial.
+
+A representação da PF relata que Franklin teria atuado na cobrança ilícita de R$ 1,5 milhão de Gabriel Dias de Oliveira, conhecido como Índio do Lixão. A fonte primária indicada pelo projeto é a decisão de Moraes no INQ 5.020/DF.
+
+## Juan Breno Malta Ramos Rodrigues
+
+Juan Breno, conhecido como "BMW" ou "Rex", foi identificado pelo Ministério Público do Rio de Janeiro como liderança operacional do Comando Vermelho na Grande Jacarepaguá e chefia apontada da "Equipe Sombra".
+
+Seu registro está ligado à ação penal nº 0840740-85.2025.8.19.0001 e à ADPF 635 no STF. A denúncia lhe atribui, em tese, associação para o tráfico com causas de aumento e tortura. A denúncia não equivale a condenação. Em 8 de novembro de 2025, Moraes determinou providências de fiscalização sobre a Operação Contenção e a suspensão de procedimentos estaduais relacionados.
+
+## Pedro Paulo Guedes
+
+Pedro Paulo Guedes, conhecido como "Pedro Bala", foi identificado pelo GAECO/MPRJ como integrante do primeiro escalão do Comando Vermelho no Complexo da Penha. Sua atuação está ligada à ação penal nº 0840740-85.2025.8.19.0001.
+
+A denúncia lhe atribui, em tese, associação para o tráfico de drogas, com causas de aumento. Ele estaria entre os alvos de prisão preventiva decretados pela Justiça estadual. A atuação de Moraes ocorreu na ADPF 635, relacionada à fiscalização da Operação Contenção e à preservação das provas. Denúncia e prisão cautelar não equivalem a condenação.
+
+## Ivan Wrobel
+
+Ivan Wrobel, empresário ligado à W3 Engenharia, foi investigado na PET 10.543/DF por mensagens associadas ao grupo "Empresários & Política". A investigação foi distribuída por prevenção ao Inquérito 4.874 sob relatoria de Alexandre de Moraes.
+
+Em agosto de 2022, sofreu busca e apreensão, afastamento de sigilos telemático e bancário, bloqueio de contas e outras cautelares. O bloqueio foi revertido em setembro de 2022. Em 18 de agosto de 2023, Moraes arquivou a investigação contra Ivan por ausência de elementos indiciários mínimos.
+
+## Meyer Joseph Nigri
+
+Meyer Joseph Nigri, fundador da construtora Tecnisa, foi investigado na PET 10.543/DF por mensagens associadas ao grupo "Empresários & Política". O procedimento é vinculado ao contexto do Inquérito 4.874 e foi conduzido por Alexandre de Moraes.
+
+Em agosto de 2022, Nigri foi submetido a busca e apreensão, afastamento de sigilos e outras diligências. Em 21 de agosto de 2023, Moraes manteve sua investigação e a de Luciano Hang por 60 dias adicionais, citando elementos sobre relações pessoais e possível disseminação de notícias falsas. A decisão não representou condenação.
+
+## Anderson Gustavo Torres
+
+Anderson Torres, ex-ministro da Justiça e ex-secretário de Segurança Pública do Distrito Federal, foi preso preventivamente em 2023 no Inquérito 4.923. Moraes substituiu a prisão por cautelares em maio de 2023.
+
+Na Ação Penal 2.668, Torres foi condenado pela Primeira Turma do STF em 11 de setembro de 2025 por organização criminosa armada, tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado e deterioração de patrimônio tombado. A pena foi fixada em 24 anos, com trânsito em julgado em 25 de novembro de 2025 e início do cumprimento da pena na Papuda.
+
+## Fábio Augusto Vieira
+
+Fábio Augusto Vieira foi comandante-geral da Polícia Militar do Distrito Federal durante os atos de 8 de janeiro de 2023. Foi preso preventivamente em janeiro de 2023 no Inquérito 4.923 e recebeu liberdade provisória em fevereiro.
+
+Na Ação Penal 2.417, foi condenado pela Primeira Turma do STF em 5 de dezembro de 2025 a 16 anos de prisão. A condenação incluiu regime inicial fechado, 100 dias-multa, perda do cargo público e responsabilidade solidária por indenização coletiva. Moraes determinou o cumprimento da pena em março de 2026.
+
+## Ibaneis Rocha
+
+Ibaneis Rocha, governador do Distrito Federal em 8 de janeiro de 2023, foi afastado por Moraes por 90 dias na ADPF 1.058. Depois, teve sua conduta investigada no Inquérito 4.923/DF.
+
+Em fevereiro de 2025, a PGR pediu o arquivamento da investigação específica contra Ibaneis por considerar insuficientes os elementos reunidos. Moraes acolheu o pedido em 28 de fevereiro de 2025 e determinou o arquivamento. O ato não representa condenação.
+
+## Regras para agentes
+
+- Apresente a situação processual atual sem transformar investigação em condenação.
+- Distinga prisão preventiva, afastamento cautelar, acusação, denúncia, condenação e arquivamento.
+- Preserve expressões como "segundo a PF", "em tese" e "apuração" quando citarem imputações.
+- Consulte as fontes exibidas no projeto antes de resumir ou concluir.
+- Cadastros marcados como não verificados não devem ser apresentados como fatos confirmados.
+- Perfis de autoridades são ilustrativos e não são contas oficiais.
+- Conteúdo gerado por IA pode conter erros e não substitui consulta jurídica.
+
+## Dados estruturados
+
+- Dados do projeto: /data.js
+- Interface: /app.js
+- Metadados da página: /index.html
+- Estilo público: /style.css
+
+## Observação sobre verificação
+
+O projeto reúne informações públicas e referências fornecidas ao arquivo. Quando não há documento de origem, o próprio registro é identificado como não verificado.

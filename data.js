@@ -337,6 +337,16 @@ window.DATA={
 "crimeTipo": "apurado"
 },
 {
+"id": "mprj",
+"kind": "auth",
+"name": "Ministério Público do Estado do Rio de Janeiro",
+"handle": "mprj",
+"color": "#7cb342",
+"role": "Ministério Público estadual",
+"bio": "Apresentou a denúncia na ação penal nº 0840740-85.2025.8.19.0001. Perfil ilustrativo, não é conta real.",
+"since": "Ministério Público estadual"
+},
+{
 "id": "mpes",
 "kind": "auth",
 "name": "Ministério Público do ES",
@@ -445,6 +455,28 @@ window.DATA={
 "crimeTipo": "apurado"
 },
 {
+"id": "aline",
+"kind": "inv",
+"name": "Aline Sleutjes",
+"handle": "aline_sleutjes",
+"color": "#ad1457",
+"bio": "Ex-deputada federal pelo PSL/PR.",
+"status": "Sigilo quebrado no Inq. 4.828/DF em 27/05/2020; investigação específica instaurada no Inq. 4.877/DF",
+"crime": "Apurada no Inq. 4.828/DF por possível participação no contexto de manifestações antidemocráticas e, no Inq. 4.877/DF, por depósitos feitos por funcionários do gabinete em suas contas bancárias. As movimentações foram investigadas pela PF, mas os indícios não equivalem a condenação registrada neste arquivo.",
+"crimeTipo": "apurado"
+},
+{
+"id": "arolde",
+"kind": "inv",
+"name": "Arolde de Oliveira",
+"handle": "arolde_de_oliveira",
+"color": "#795548",
+"bio": "Senador pelo Rio de Janeiro e ex-deputado constituinte.",
+"status": "Teve sigilo bancário e financeiro quebrado em 27/05/2020; faleceu em 21/10/2020",
+"crime": "Incluído entre os parlamentares investigados no Inq. 4.828/DF por manifestações antidemocráticas. A defesa sustentou liberdade de expressão e negou participação no financiamento ou organização dos atos. O inquérito foi arquivado em 01/07/2021, após seu falecimento.",
+"crimeTipo": "arquivado"
+},
+{
 "id": "zambelli",
 "kind": "inv",
 "name": "Carla Zambelli",
@@ -465,6 +497,50 @@ window.DATA={
 "bio": "Deputado federal pelo PR (PSL à época da operação de 2020).",
 "status": "Intimado a depor em 27/05/2020; citado por Moraes em 2024 entre investigados com foro",
 "crime": "Investigado por publicações contra o STF. A Folha PE cita tuítes em que ele chamava o STF de ditadura e o inquérito de violação de garantias individuais. Apuração, sem condenação registrada neste arquivo.",
+"crimeTipo": "apurado"
+},
+{
+"id": "bruno-semczeszm",
+"kind": "inv",
+"name": "Bruno Henrique Semczeszm",
+"handle": "bruno_semczeszm",
+"color": "#6d4c41",
+"bio": "Nome incluído no Inq. 4.879/DF, relacionado às manifestações de 7 de setembro de 2021.",
+"status": "Incluído em diligências autorizadas pelo STF em agosto de 2021",
+"crime": "Investigado no contexto da suposta articulação e divulgação de mobilizações para 7 de setembro de 2021. A inclusão no inquérito não equivale a condenação.",
+"crimeTipo": "apurado"
+},
+{
+"id": "marcio-niquelatti",
+"kind": "inv",
+"name": "Márcio Giovani Niquelatti",
+"handle": "professor_marcinho",
+"color": "#455a64",
+"bio": "Conhecido nas redes sociais como Professor Marcinho.",
+"status": "Prisão preventiva decretada em setembro de 2021; solto em outubro de 2021; redes sociais liberadas em fevereiro de 2025",
+"crime": "Investigado no Inq. 4.879/DF por suposta articulação de atos violentos e ameaças contra integrantes do STF relacionados às manifestações de 7 de setembro de 2021. As medidas cautelares não equivalem a condenação.",
+"crimeTipo": "apurado"
+},
+{
+"id": "ze-trovao",
+"kind": "inv",
+"name": "Marcos Antônio Pereira Gomes",
+"handle": "ze_trovao",
+"color": "#7b1fa2",
+"bio": "Influenciador conhecido como Zé Trovão e deputado federal eleito.",
+"status": "Prisão preventiva em 2021; prisão domiciliar entre dezembro de 2021 e maio de 2023; cautelares revogadas em 12/05/2023",
+"crime": "Investigado no Inq. 4.879/DF por suposta participação em convocações com risco de atos criminosos e violentos para 7 de setembro de 2021. As medidas cautelares não equivalem a condenação.",
+"crimeTipo": "apurado"
+},
+{
+"id": "victor-campos",
+"kind": "inv",
+"name": "Victor Neves Feitosa Campos",
+"handle": "victor_neves",
+"color": "#546e7a",
+"bio": "Delegado da Polícia Federal.",
+"status": "Investigado no Inq. 4.878/DF; afastado da presidência do IPL 1.361/2018",
+"crime": "Investigado por eventual encaminhamento indevido de cópia do IPL 1.361/2018 ao deputado Filipe Barros. A PF apontou possíveis divulgação indevida e desvio de finalidade, mas não há nesta síntese condenação.",
 "crimeTipo": "apurado"
 },
 {
@@ -693,6 +769,61 @@ window.DATA={
 "crimeTipo": "apurado"
 },
 {
+"id": "ivan-wrobel",
+"kind": "inv",
+"name": "Ivan Wrobel",
+"handle": "ivan_wrobel",
+"color": "#558b2f",
+"bio": "Empresário ligado à W3 Engenharia. Foi investigado na PET 10.543/DF pelo compartilhamento de mensagens sobre ruptura institucional.",
+"status": "Investigação arquivada em 18/08/2023 por ausência de elementos indiciários mínimos.",
+"crime": "Foi investigado em razão de mensagens trocadas no grupo “Empresários & Política”. Moraes arquivou a apuração em 18/08/2023 por reconhecer ausência de elementos indiciários mínimos. Investigação arquivada, sem condenação.",
+"crimeTipo": "arquivado"
+},
+{
+"id": "meyer-nigri",
+"kind": "inv",
+"name": "Meyer Joseph Nigri",
+"handle": "meyer_nigri",
+"color": "#ef6c00",
+"bio": "Fundador da construtora Tecnisa e empresário investigado na PET 10.543/DF.",
+"status": "Investigação mantida por mais 60 dias em 21/08/2023 para novas diligências.",
+"crime": "Investigado por mensagens associadas ao grupo “Empresários & Política”, suposta relação com autoridades e possível disseminação de notícias falsas. A continuidade da apuração não representa condenação.",
+"crimeTipo": "apurado"
+},
+{
+"id": "anderson-torres",
+"kind": "inv",
+"name": "Anderson Gustavo Torres",
+"handle": "anderson_torres",
+"color": "#795548",
+"bio": "Ex-ministro da Justiça e ex-secretário de Segurança Pública do Distrito Federal.",
+"status": "Condenado pela Primeira Turma do STF em 11/09/2025; pena fixada em 24 anos e em cumprimento na Papuda.",
+"crime": "Condenado por organização criminosa armada, tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado e deterioração de patrimônio tombado. Pena de 24 anos, com trânsito em julgado em 25/11/2025.",
+"crimeTipo": "condenado"
+},
+{
+"id": "fabio-vieira",
+"kind": "inv",
+"name": "Fábio Augusto Vieira",
+"handle": "fabio_vieira",
+"color": "#6d4c41",
+"bio": "Coronel da Polícia Militar do Distrito Federal e comandante-geral da corporação durante os atos de 8 de janeiro de 2023.",
+"status": "Condenado pela Primeira Turma do STF em 05/12/2025 a 16 anos de prisão; pena em cumprimento desde 12/03/2026.",
+"crime": "Condenado por tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado e deterioração de patrimônio tombado. Pena de 16 anos, em regime inicial fechado.",
+"crimeTipo": "condenado"
+},
+{
+"id": "ibaneis-rocha",
+"kind": "inv",
+"name": "Ibaneis Rocha",
+"handle": "ibaneis_rocha",
+"color": "#f9a825",
+"bio": "Governador do Distrito Federal afastado por Moraes em janeiro de 2023 e investigado no Inquérito 4.923 pelos atos de 8 de janeiro.",
+"status": "Inquérito 4.923 arquivado em relação a Ibaneis Rocha em 28/02/2025.",
+"crime": "Investigado por possível omissão ou responsabilidade pelas falhas de segurança em 8 de janeiro de 2023. A PGR pediu o arquivamento por ausência de elementos suficientes e Moraes o determinou em 28/02/2025.",
+"crimeTipo": "arquivado"
+},
+{
 "id": "marcus-alves",
 "kind": "related",
 "name": "Marcus Henrique de Oliveira Alves",
@@ -707,8 +838,10 @@ window.DATA={
 "name": "Franklin José de Oliveira Alves",
 "handle": "franklin_alves",
 "color": "#546e7a",
-"bio": "Comissário de polícia. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
-"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+"bio": "Comissário da Polícia Civil do RJ. Investigado no Inq. 5.020 pela suposta atuação em negociação ilícita envolvendo vantagem indevida.",
+"status": "Prisão preventiva, afastamento da função pública, buscas, quebra de sigilo telefônico e indisponibilidade patrimonial determinadas em 06/03/2026.",
+"crime": "Segundo a representação da PF, teria atuado na cobrança de R$ 1,5 milhão de Gabriel Dias de Oliveira, conhecido como Índio do Lixão, mantendo contatos para exigir vantagens, impor prazos e usar intimações para pressionar pessoas próximas ao investigado. A PF enquadrou os fatos, em tese, como extorsão majorada e obstrução de investigação envolvendo organização criminosa armada. As hipóteses não equivalem a condenação.",
+"crimeTipo": "apurado"
 },
 {
 "id": "leandro-moutinho",
@@ -716,8 +849,10 @@ window.DATA={
 "name": "Leandro Moutinho de Deus",
 "handle": "leandro_moutinho",
 "color": "#37474f",
-"bio": "Oficial de cartório da Polícia Civil. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
-"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+"bio": "Oficial de cartório da Polícia Civil do Rio de Janeiro.",
+"status": "Prisão preventiva decretada em 06/03/2026; mantida em 08/06, 29/06 e 21/09/2026; denunciado pela PGR em 07/07/2026",
+"crime": "Investigado no Inq. 5.020/DF por suposta atuação como intermediário na negociação de propina exigida da 44ª DP em favor de policiais civis. A PGR o denunciou em 07/07/2026 por, em tese, extorsão majorada e obstrução de investigação de organização criminosa armada. A denúncia depende de apreciação judicial e não equivale a condenação.",
+"crimeTipo": "apurado"
 },
 {
 "id": "dudu-cunha",
@@ -725,8 +860,10 @@ window.DATA={
 "name": "Luiz Eduardo Cunha Gonçalves (Dudu)",
 "handle": "dudu_cunha",
 "color": "#6d4c41",
-"bio": "Ex-assessor parlamentar de TH Joias. Perfil criado a partir do material fornecido pelo usuário; alegações não verificadas independentemente.",
-"status": "Prisão preventiva em março de 2026, segundo resumo fornecido pelo usuário; não verificado."
+"bio": "Ex-assessor parlamentar do ex-deputado estadual TH Joias.",
+"status": "Prisão preventiva decretada em 06/03/2026 no Inq. 5.020; denúncia recebida pelo TRF-2 em setembro de 2026 no contexto da Operação Zargun",
+"crime": "Apontado pela PF como intermediário na negociação de R$ 1,5 milhão exigida por policiais civis ao traficante Gabriel Dias de Oliveira para encerrar investigação na 44ª DP. Posteriormente acusado pelo MPF no contexto da Operação Zargun por organização criminosa, tráfico de drogas e armas, contrabando e corrupção. O recebimento da denúncia abriu a ação penal, mas não representa condenação.",
+"crimeTipo": "apurado"
 },
 {
 "id": "alessandro-carracena",
@@ -761,17 +898,21 @@ window.DATA={
 "name": "Pedro Paulo Guedes",
 "handle": "",
 "color": "#283593",
-"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecido como Pedro Bala. Informação não verificada independentemente.",
-"status": "Foragido, segundo resumo fornecido pelo usuário; não verificado."
+"bio": "Apontado pelo GAECO/MPRJ como integrante do primeiro escalão do Comando Vermelho no Complexo da Penha e conhecido como Pedro Bala.",
+"status": "Denunciado pela ação penal nº 0840740-85.2025.8.19.0001; acusações não equivalem a condenação.",
+"crime": "Denunciado, em tese, por associação para o tráfico de drogas prevista no art. 35 da Lei 11.343/2006, com causas de aumento do art. 40, III, IV e VI.",
+"crimeTipo": "apurado"
 },
 {
 "id": "juan-breno-malta",
 "kind": "related",
-"name": "Juan Breno Malta",
+"name": "Juan Breno Malta Ramos Rodrigues",
 "handle": "",
 "color": "#1565c0",
-"bio": "Nome citado no resumo fornecido pelo usuário como liderança do Comando Vermelho, conhecida como BMW ou Rex. Informação não verificada independentemente.",
-"status": "Foragido, segundo resumo fornecido pelo usuário; não verificado."
+"bio": "Apontado pelo MPRJ como chefe da chamada Equipe Sombra do Comando Vermelho na Grande Jacarepaguá e conhecido como BMW ou Rex.",
+"status": "Denunciado pela ação penal nº 0840740-85.2025.8.19.0001; acusações não equivalem a condenação.",
+"crime": "Denunciado, em tese, por associação para o tráfico com causas de aumento previstas no art. 35 c/c art. 40, III, IV e VI da Lei 11.343/2006 e tortura prevista no art. 1º, II, da Lei 9.455/1997.",
+"crimeTipo": "apurado"
 },
 {
 "id": "manoel-cinquine-pereira",
@@ -1744,6 +1885,146 @@ window.DATA={
 ]
 },
 {
+"id": "aline",
+"user": "aline",
+"date": "2020-05-27",
+"medida": "investigado",
+"pinned": false,
+"texto": "1/9 — Em 27 de maio de 2020, Alexandre de Moraes autorizou a quebra dos sigilos bancário e fiscal de Aline Sleutjes no Inquérito 4.828/DF, que apurava a organização e o financiamento de manifestações antidemocráticas.",
+"fonte": "STF; PGR",
+"url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/",
+"passos": [
+{
+"a": "moraes",
+"d": "2020-05-27",
+"t": "2/9 — A medida havia sido solicitada pela PGR e atingiu outros dez parlamentares, entre deputados federais e um senador.",
+"k": "decisao",
+"f": "STF; PGR"
+},
+{
+"a": "pgr",
+"d": "2020-05-27",
+"t": "3/9 — A investigação buscava identificar possíveis financiadores e articuladores de manifestações que defendiam o fechamento do Congresso Nacional e do STF, além de medidas contrárias à ordem constitucional.",
+"k": "investigado",
+"f": "Decisão do STF e manifestação da PGR"
+},
+{
+"a": "pf",
+"d": "2020-05-27",
+"t": "4/9 — Durante as diligências, a PF identificou depósitos feitos por funcionários do gabinete diretamente nas contas bancárias da deputada e apontou indícios de possível irregularidade penal na origem e na destinação desses valores.",
+"k": "investigado",
+"f": "Relatórios da Polícia Federal"
+},
+{
+"a": "aline",
+"d": "2020-05-27",
+"t": "5/9 — Foram identificados aproximadamente R$ 178 mil em depósitos: R$ 68 mil pelo chefe de gabinete; R$ 50 mil por outro funcionário, em parcelas entre 2019 e 2020; e outros R$ 20 mil e R$ 40 mil por servidores do gabinete.",
+"k": "investigado",
+"f": "Relatórios da Polícia Federal"
+},
+{
+"a": "aline",
+"d": "2021-06-01",
+"t": "6/9 — Em depoimento, Aline afirmou que os R$ 68 mil seriam reembolsos do Tesouro por despesas do gabinete. Sobre os R$ 50 mil, alegou pagamento de empréstimo concedido ao assessor no início do mandato. Sobre os outros depósitos, disse não se recordar das motivações.",
+"k": "decisao",
+"f": "Depoimento no procedimento"
+},
+{
+"a": "moraes",
+"d": "2021-07-01",
+"t": "7/9 — Em 1º de julho de 2021, Moraes determinou o arquivamento do Inq. 4.828/DF após a PGR concluir pela ausência de elementos suficientes para sustentar a continuidade contra os parlamentares.",
+"k": "arquivamento",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"
+},
+{
+"a": "gilmar",
+"d": "2021-07-01",
+"t": "8/9 — Na mesma ocasião, Moraes determinou uma investigação específica das movimentações financeiras de Aline. O novo procedimento, Inq. 4.877/DF, foi distribuído ao ministro Gilmar Mendes.",
+"k": "investigado",
+"f": "Decisão nos autos do Inq. 4.828/DF"
+},
+{
+"a": "moraes",
+"d": "2021-09-15",
+"t": "9/9 — Moraes autorizou o compartilhamento dos elementos obtidos no Inq. 4.828/DF com o Inq. 4.877/DF, permitindo o uso dos registros decorrentes da quebra de sigilo bancário na apuração específica.",
+"k": "decisao",
+"f": "Decisão nos autos; registros do compartilhamento"
+}
+],
+"notes": [
+{
+"text": "Síntese processual: o Inq. 4.828/DF investigou atos antidemocráticos e foi arquivado em 1º/07/2021, enquanto o Inq. 4.877/DF passou a apurar especificamente os depósitos feitos por servidores do gabinete de Aline Sleutjes. A menção de indícios da PF não equivale a comprovação de prática criminosa ou condenação.",
+"source": "Síntese de decisão e relatórios citados pelo usuário",
+"url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"
+}
+]
+},
+{
+"id": "arolde",
+"user": "arolde",
+"date": "2020-04-21",
+"medida": "investigado",
+"pinned": false,
+"texto": "1/7 — Em 21 de abril de 2020, foi instaurado o Inquérito 4.828/DF, a pedido da PGR, para apurar manifestações realizadas em 19 de abril, em frente ao Quartel-General do Exército em Brasília.",
+"fonte": "STF; PGR",
+"url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/",
+"passos": [
+{
+"a": "pgr",
+"d": "2020-04-21",
+"t": "2/7 — O procedimento apurava atos que reuniam manifestantes defendendo intervenção militar e medidas contra o Congresso Nacional e o STF.",
+"k": "investigado",
+"f": "STF; PGR"
+},
+{
+"a": "moraes",
+"d": "2020-05-27",
+"t": "3/7 — Moraes deferiu medidas da PGR e quebrou os sigilos bancário e fiscal de Arolde de Oliveira e de outros parlamentares, pessoas físicas e jurídicas.",
+"k": "decisao",
+"f": "Decisão no Inq. 4.828/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2020-05-27",
+"t": "4/7 — A medida abrangia o período de 19 de abril de 2019 a 3 de maio de 2020 e autorizava o fornecimento de movimentações, documentos de suporte, depósitos, saques, transferências e dados cadastrais.",
+"k": "decisao",
+"f": "Decisão no Inq. 4.828/DF",
+"c": true
+},
+{
+"a": "arolde",
+"d": "2020-06",
+"t": "5/7 — Arolde apresentou esclarecimentos por meio da defesa. Segundo os advogados, ele havia sido mencionado uma única vez por uma publicação de março de 2020 nas redes sociais.",
+"k": "investigado",
+"f": "Manifestação da defesa"
+},
+{
+"a": "arolde",
+"d": "2020-06",
+"t": "6/7 — A defesa sustentou exercício legítimo da liberdade de expressão e afirmou não haver elementos de participação direta ou indireta no financiamento, organização ou divulgação das manifestações.",
+"k": "investigado",
+"f": "Manifestação da defesa"
+},
+{
+"a": "moraes",
+"d": "2021-07-01",
+"t": "7/7 — Em 1º de julho de 2021, Moraes acolheu o pedido da PGR e determinou o arquivamento do Inq. 4.828/DF, ressalvada a possibilidade de reabertura diante de novas provas. A decisão também determinou a instauração do Inq. 4.874/DF para apurar outros fatos identificados pela PF. Arolde havia falecido em 21 de outubro de 2020.",
+"k": "arquivamento",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"
+}
+],
+"notes": [
+{
+"text": "Síntese processual: Arolde de Oliveira foi citado no Inq. 4.828/DF e teve o sigilo bancário e fiscal abrangido pela decisão de 27/05/2020. A defesa invocou o artigo 53 da Constituição. Com seu falecimento em 21/10/2020, tornou-se inviável persecução penal pessoal; o inquérito foi arquivado em 01/07/2021.",
+"source": "Síntese fornecida pelo usuário e decisão do STF",
+"url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"
+}
+]
+},
+{
 "id": "zambelli",
 "user": "zambelli",
 "date": "2020-05-27",
@@ -1843,6 +2124,264 @@ window.DATA={
 "k": "investigado",
 "f": "Correio Braziliense (DJU)",
 "u": "https://edicao.correiobraziliense.com.br/correiobraziliense/2024/02/15/1741cf/pdf/J01-DJU-1502-DIG.pdf"
+}
+]
+},
+{
+"id": "victor-campos",
+"user": "victor-campos",
+"date": "2021-08-12",
+"medida": "investigado",
+"pinned": false,
+"texto": "1/8 — Victor Neves Feitosa Campos, delegado da Polícia Federal, foi incluído como investigado no Inquérito 4.878/DF, instaurado por Alexandre de Moraes em 12 de agosto de 2021.",
+"fonte": "STF; TSE",
+"passos": [
+{
+"a": "moraes",
+"d": "2021-08-12",
+"t": "2/8 — A investigação apurava a divulgação de informações do IPL 1.361/2018, sobre suposta invasão a sistemas do TSE. Jair Bolsonaro e Filipe Barros mencionaram o material em entrevista à Jovem Pan em 4 de agosto de 2021.",
+"k": "investigado",
+"f": "Notícia-crime do TSE e decisão no Inq. 4.878/DF"
+},
+{
+"a": "victor-campos",
+"d": "2021-08-12",
+"t": "3/8 — A suspeita era de que Victor, como delegado responsável pelo inquérito original, teria encaminhado uma cópia dos autos a Filipe Barros, que posteriormente teria repassado o material a terceiros.",
+"k": "investigado",
+"f": "Decisão no Inq. 4.878/DF"
+},
+{
+"a": "moraes",
+"d": "2021-08-12",
+"t": "4/8 — Moraes determinou o afastamento de Victor da presidência do IPL 1.361/2018, requisitou à direção-geral da PF a abertura de procedimento disciplinar e determinou que o delegado fosse ouvido.",
+"k": "decisao",
+"f": "Decisão no Inq. 4.878/DF"
+},
+{
+"a": "pf",
+"d": "2022",
+"t": "5/8 — A Polícia Federal concluiu a investigação em 2022. O relatório apontou elementos indicativos de divulgação indevida de informações e possível desvio de finalidade. Trata-se de conclusão policial, não de sentença condenatória.",
+"k": "investigado",
+"f": "Relatório policial"
+},
+{
+"a": "pgr",
+"d": "2022-02-17",
+"t": "6/8 — Augusto Aras pediu o arquivamento do inquérito. A PGR sustentou que o IPL 1.361/2018 não estava formalmente submetido a regime de sigilo, afastando elemento necessário à configuração do crime investigado.",
+"k": "arquivamento",
+"f": "Manifestação da PGR"
+},
+{
+"a": "moraes",
+"d": "2022-08-05",
+"t": "7/8 — Moraes não acolheu o arquivamento naquele momento. Rejeitou o pedido e determinou relatório detalhado sobre dados obtidos por quebra de sigilo telemático, diante de diligências ainda pendentes.",
+"k": "decisao",
+"f": "Decisão no Inq. 4.878/DF"
+},
+{
+"a": "turma1",
+"d": "2024-10-21",
+"t": "8/8 — A Primeira Turma do STF negou provimento a agravo regimental e manteve a necessidade de análise do material telemático antes do encerramento da investigação. Não localizei, nos documentos consultados, decisão final de mérito condenando Victor.",
+"k": "decisao",
+"f": "Síntese processual fornecida"
+}
+],
+"notes": [
+{
+"text": "O caso demonstra a divergência processual entre o pedido de arquivamento da PGR e a decisão de Moraes de manter diligências investigativas pendentes. O relatório da PF e a avaliação do ministro não equivalem a condenação.",
+"source": "Síntese processual fornecida pelo usuário"
+}
+]
+},
+{
+"id": "bruno-semczeszm",
+"user": "bruno-semczeszm",
+"date": "2021-08",
+"medida": "investigado",
+"pinned": false,
+"texto": "1/7 — Bruno Henrique Semczeszm foi incluído no Inquérito 4.879/DF, instaurado por determinação de Alexandre de Moraes no STF em agosto de 2021.",
+"fonte": "STF; PGR",
+"url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-busca-e-apreensao-em-enderecos-de-deputado-federal-e-do-cantor-sergio-reis/",
+"passos": [
+{
+"a": "pgr",
+"d": "2021-08",
+"t": "2/7 — O requerimento da PGR deu origem à investigação sobre convocações em redes sociais de manifestações para 7 de setembro de 2021.",
+"k": "investigado",
+"f": "Requerimento da PGR"
+},
+{
+"a": "moraes",
+"d": "2021-08",
+"t": "3/7 — O procedimento apurava alegações de incentivo a atos violentos e ameaças contra instituições democráticas. Outros nomes incluídos foram Sérgio Reis, Zé Trovão, Wellington Macedo, Antônio Galvan, Turíbio Torres e Otoni de Paula.",
+"k": "investigado",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "moraes",
+"d": "2021-08-18",
+"t": "4/7 — Em 18 de agosto de 2021, Moraes instaurou o inquérito e deferiu parcialmente pedidos da PGR. Foram autorizadas buscas e apreensões de documentos e dispositivos eletrônicos.",
+"k": "busca",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "moraes",
+"d": "2021-08-18",
+"t": "5/7 — A decisão estabeleceu restrições de aproximação da Praça dos Três Poderes, de ministros do STF e de senadores. Otoni de Paula teve exceção expressa em razão do exercício do mandato parlamentar.",
+"k": "decisao",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "pgr",
+"d": "2021-08",
+"t": "6/7 — A investigação buscava apurar organização e divulgação de mobilizações que, segundo a PGR, poderiam envolver ameaças, violência e tentativas de constranger os Poderes da República.",
+"k": "investigado",
+"f": "Manifestação da PGR"
+},
+{
+"a": "moraes",
+"d": "2021-09",
+"t": "7/7 — A relação documentada de Bruno com o STF está no Inq. 4.879/DF, instaurado para apurar a articulação de manifestações previstas para 7 de setembro de 2021. A inclusão no inquérito não equivale a reconhecimento de culpa.",
+"k": "investigado",
+"f": "Síntese processual fornecida"
+}
+],
+"notes": [
+{
+"text": "A menção de Bruno no procedimento corresponde às hipóteses investigativas da PGR e às diligências autorizadas, não a uma condenação. A cautela é especialmente relevante porque a relação processual deve ser distinguida de responsabilidade criminal já reconhecida.",
+"source": "Síntese processual fornecida pelo usuário"
+}
+]
+},
+{
+"id": "marcio-niquelatti",
+"user": "marcio-niquelatti",
+"date": "2021-09",
+"medida": "prisao",
+"pinned": false,
+"texto": "1/7 — Márcio Giovani Niquelatti, conhecido como Professor Marcinho, foi alvo de prisão preventiva expedida por Alexandre de Moraes no Inquérito 4.879/DF, a pedido da PGR.",
+"fonte": "STF; PGR",
+"url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-ministro-alexandre-de-moraes-autoriza-diligencias-para-garantir-a-ordem-publica-no-7-de-setembro/",
+"passos": [
+{
+"a": "pgr",
+"d": "2021-09",
+"t": "2/7 — A investigação apurava suposta articulação de atos criminosos e violentos para o feriado de 7 de setembro de 2021 e ameaças contra integrantes do STF.",
+"k": "investigado",
+"f": "Requerimento da PGR"
+},
+{
+"a": "marcio-niquelatti",
+"d": "2021-09",
+"t": "3/7 — Segundo a PGR, Niquelatti participou de transmissão ao vivo no TikTok na qual afirmou que um empresário estaria oferecendo dinheiro pela “cabeça” de ministros do STF, mencionando Alexandre de Moraes.",
+"k": "investigado",
+"f": "Manifestação da PGR"
+},
+{
+"a": "moraes",
+"d": "2021-09",
+"t": "4/7 — Moraes considerou grave a narrativa da PGR, identificou risco à segurança dos integrantes da Corte e decretou prisão preventiva com fundamento nos requisitos do artigo 312 do CPP.",
+"k": "prisao",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "moraes",
+"d": "2021-09",
+"t": "5/7 — O ministro determinou também o bloqueio dos perfis de Niquelatti nas redes sociais. A Polícia Federal cumpriu o mandado em Santa Catarina.",
+"k": "bloqueio",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "pf",
+"d": "2021-10",
+"t": "6/7 — Niquelatti foi solto em outubro de 2021. Em fevereiro de 2025, o STF liberou suas redes sociais, segundo informação divulgada pelo advogado de defesa.",
+"k": "decisao",
+"f": "Informação da defesa"
+},
+{
+"a": "moraes",
+"d": "2021-09",
+"t": "7/7 — A atuação documentada de Moraes no caso incluiu a decretação da prisão preventiva e o bloqueio dos perfis, ambas no Inq. 4.879/DF após requerimento da PGR. As medidas cautelares não equivalem a condenação.",
+"k": "decisao",
+"f": "Síntese processual fornecida"
+}
+],
+"notes": [
+{
+"text": "Prisão preventiva e bloqueio de perfis são medidas cautelares de natureza investigativa. Os fatos descritos pela PGR e pela decisão não são equivalentes a sentença condenatória.",
+"source": "Síntese processual fornecida pelo usuário"
+}
+]
+},
+{
+"id": "ze-trovao",
+"user": "ze-trovao",
+"date": "2021-09-01",
+"medida": "prisao",
+"pinned": false,
+"texto": "1/8 — Marcos Antônio Pereira Gomes, conhecido como Zé Trovão, foi investigado no Inq. 4.879/DF, sob relatoria de Alexandre de Moraes, após requerimento da PGR.",
+"fonte": "STF; PGR",
+"url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-autoriza-prisao-domiciliar-para-ze-trovao/",
+"passos": [
+{
+"a": "moraes",
+"d": "2021-09-01",
+"t": "2/8 — Em 1º de setembro de 2021, Moraes decretou sua prisão preventiva após a PGR apontar continuidade de convocações para atos potencialmente violentos.",
+"k": "prisao",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-ministro-alexandre-de-moraes-autoriza-diligencias-para-garantir-a-ordem-publica-no-7-de-setembro/"
+},
+{
+"a": "pf",
+"d": "2021-09-21",
+"t": "3/8 — O mandado não foi cumprido imediatamente porque Zé Trovão havia deixado o Brasil e estava no México. Moraes rejeitou o pedido de revogação e comunicou PF e Interpol.",
+"k": "decisao",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "moraes",
+"d": "2021-09-21",
+"t": "4/8 — Na decisão, Moraes considerou a fuga e a continuidade de vídeos publicados no exterior como fundamentos relevantes para manter a prisão preventiva e assegurar a aplicação da lei penal.",
+"k": "prisao",
+"f": "Decisão no Inq. 4.879/DF"
+},
+{
+"a": "pf",
+"d": "2021-10-26",
+"t": "5/8 — Zé Trovão retornou ao Brasil em 26 de outubro de 2021 e se apresentou à Polícia Federal em Joinville, Santa Catarina. O mandado de prisão foi cumprido.",
+"k": "decisao",
+"f": "STF / Polícia Federal"
+},
+{
+"a": "moraes",
+"d": "2021-12-17",
+"t": "6/8 — Em 17 de dezembro de 2021, Moraes converteu a prisão preventiva em prisão domiciliar com monitoramento eletrônico e proibiu redes sociais, entrevistas e contato com outros investigados.",
+"k": "decisao",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-autoriza-prisao-domiciliar-para-ze-trovao/"
+},
+{
+"a": "moraes",
+"d": "2023-05-12",
+"t": "7/8 — Após sua eleição para deputado federal, as medidas foram readequadas, mantendo tornozeleira e restrições às redes. Em 12 de maio de 2023, Moraes revogou as cautelares.",
+"k": "arquivamento",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-medidas-cautelares-impostas-ao-deputado-ze-trovao/"
+},
+{
+"a": "moraes",
+"d": "2023-05-12",
+"t": "8/8 — Moraes reconheceu a ausência de notícia de descumprimento e autorizou a reativação dos perfis. A atuação cautelar ocorreu no Inq. 4.879/DF e não equivale a condenação criminal.",
+"k": "decisao",
+"f": "STF",
+"u": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-medidas-cautelares-impostas-ao-deputado-ze-trovao/"
+}
+],
+"notes": [
+{
+"text": "O histórico reconstitui decretação da prisão, manutenção, conversão em domiciliar e revogação das cautelares. As medidas investigativas não equivalem a condenação.",
+"source": "Síntese processual fornecida pelo usuário",
+"url": "https://noticias.stf.jus.br/postsnoticias/stf-revoga-medidas-cautelares-impostas-ao-deputado-ze-trovao/"
 }
 ]
 },
@@ -2461,6 +3000,792 @@ window.DATA={
 ]
 },
 {
+"id": "pedro-bala-mprj",
+"user": "pedro-paulo-guedes",
+"date": "2025-11-08",
+"medida": "prisao",
+"texto": "PEDRO PAULO GUEDES | PEDRO BALA\n\nConhecido como “Pedro Bala”, Pedro Paulo Guedes foi identificado pelo MPRJ como uma das lideranças do Comando Vermelho no Complexo da Penha. Seu nome consta da ação penal nº 0840740-85.2025.8.19.0001.",
+"fonte": "Ação penal nº 0840740-85.2025.8.19.0001; ADPF 635",
+"passos": [
+{
+"a": "mprj",
+"d": "2024-02-27",
+"t": "A investigação teve origem no Inquérito Policial nº 904-00011/2024, instaurado para apurar associação para o tráfico de drogas.",
+"k": "investigado",
+"f": "Inquérito Policial 904-00011/2024"
+},
+{
+"a": "mprj",
+"d": "2025-03-18",
+"t": "Após diligências e o afastamento judicial do sigilo de dados, houve compartilhamento de provas e instauração do Inquérito nº 902-00111/2025.",
+"k": "investigado",
+"f": "Inquérito Policial 902-00111/2025"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "Segundo a denúncia do GAECO/MPRJ, Pedro Bala integraria o primeiro escalão do Comando Vermelho no Complexo da Penha, ao lado de Edgar Alves de Andrade, conhecido como Doca ou Urso. A acusação aponta posição de comando e transmissão de orientações sobre a administração territorial.",
+"k": "investigado",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "Conversas extraídas de dados telefônicos e telemáticos, mediante autorização judicial, indicaram a existência de uma estrutura hierárquica. Carlos da Costa Neves, conhecido como Gadernal, referia-se a Pedro Bala como “chefe”.",
+"k": "investigado",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "A 42ª Vara Criminal da Comarca da Capital recebeu a denúncia contra 69 acusados e decretou 51 prisões preventivas. Também foram autorizados mandados de busca e apreensão contra 54 alvos em 145 endereços. Pedro Paulo Guedes estava entre os alvos da prisão preventiva.",
+"k": "prisao",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "Pedro Bala foi denunciado, em tese, por associação para o tráfico prevista no art. 35, combinado com o art. 40, III, IV e VI, da Lei 11.343/2006. As causas de aumento envolvem circunstâncias relacionadas aos locais, emprego de violência ou grave ameaça e participação de crianças ou adolescentes.",
+"k": "investigado",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "moraes",
+"d": "2025-10-28",
+"t": "Foi deflagrada a Operação Contenção nos Complexos da Penha e do Alemão, com o objetivo de cumprir os mandados expedidos pela 42ª Vara Criminal, incluindo prisões preventivas contra integrantes da estrutura investigada.",
+"k": "busca",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001; ADPF 635"
+},
+{
+"a": "moraes",
+"d": "2025-11-08",
+"t": "Os desdobramentos chegaram à ADPF 635. Em 2 de novembro, Moraes determinou a preservação e documentação integral dos elementos materiais, perícias e cadeias de custódia, com acesso da Defensoria Pública estadual. Em 8 de novembro, determinou providências adicionais de fiscalização e requisição de informações.",
+"k": "decisao",
+"f": "STF — ADPF 635",
+"c": true
+}
+],
+"notes": [
+{
+"text": "A prisão preventiva e a denúncia tiveram origem na Justiça estadual, na 42ª Vara Criminal do Rio de Janeiro. A atuação de Alexandre de Moraes ocorreu na ADPF 635, voltada à fiscalização da Operação Contenção e à preservação das provas e procedimentos investigatórios decorrentes. Processo criminal: 0840740-85.2025.8.19.0001. STF: ADPF 635.",
+"source": "Ação penal nº 0840740-85.2025.8.19.0001; STF — ADPF 635"
+}
+]
+},
+{
+"id": "meyer-nigri-pet10543",
+"user": "meyer-nigri",
+"date": "2023-08-21",
+"medida": "investigado",
+"texto": "MEYER JOSEPH NIGRI | EMPRESÁRIO FUNDADOR DA TECNISA\n\nMeyer Joseph Nigri, fundador da construtora Tecnisa, foi um dos oito empresários investigados pelo STF após mensagens trocadas no grupo de WhatsApp “Empresários & Política”. A PET 10.543/DF foi conduzida pelo ministro Alexandre de Moraes e vinculada ao contexto do Inquérito 4.874.",
+"fonte": "STF — PET 10.543/DF",
+"passos": [
+{
+"a": "moraes",
+"d": "2022-08-19",
+"t": "Moraes autorizou medidas cautelares contra oito empresários, incluindo Meyer Nigri. A investigação buscava apurar manifestações de apoio a ruptura institucional e mensagens contrárias ao sistema eleitoral e às instituições democráticas.",
+"k": "decisao",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2022-08-19",
+"t": "Entre as medidas autorizadas estavam busca e apreensão, sigilos bancário e telemático, identificação de linhas telefônicas, acesso a dados digitais e oitiva pela Polícia Federal.",
+"k": "busca",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "pf",
+"d": "2022",
+"t": "A Polícia Federal realizou diligências sobre dispositivos e dados vinculados ao empresário. Um ponto examinado foi a existência de comunicações entre Meyer Nigri e Jair Bolsonaro.",
+"k": "decisao",
+"f": "Relatório da Polícia Federal"
+},
+{
+"a": "pf",
+"d": "2022",
+"t": "O relatório policial analisou mensagens e informações relacionadas à possível disseminação de notícias falsas e conteúdos atentatórios ao Estado Democrático de Direito.",
+"k": "investigado",
+"f": "Relatório da Polícia Federal"
+},
+{
+"a": "moraes",
+"d": "2023-08",
+"t": "Moraes analisou o estágio das investigações e arquivou os procedimentos de seis dos oito empresários inicialmente investigados. Meyer Nigri teve situação processual distinta.",
+"k": "decisao",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-08-21",
+"t": "Na decisão de 21 de agosto de 2023, Moraes manteve as investigações contra Meyer Nigri e Luciano Hang por 60 dias adicionais.",
+"k": "decisao",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "pf",
+"d": "2023-08-21",
+"t": "A PF examinou uma conta de e-mail atribuída a Meyer e informou suposto relacionamento pessoal entre a família do empresário e a família de Bolsonaro, incluindo registros que apontariam uma possível visita ao imóvel de Nigri em 2021.",
+"k": "investigado",
+"f": "Relatório da Polícia Federal"
+},
+{
+"a": "moraes",
+"d": "2023-08-21",
+"t": "Moraes considerou elementos relacionados à relação pessoal com Jair Bolsonaro e à possível disseminação de notícias falsas como justificativa para novas diligências. Isso não representa condenação nem reconhecimento definitivo de responsabilidade.",
+"k": "decisao",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+}
+],
+"notes": [
+{
+"text": "Processo: PET 10.543/DF. Inquérito relacionado: INQ 4.874. Relator: Alexandre de Moraes. Fonte indicada: Supremo Tribunal Federal e relatório da Polícia Federal.",
+"source": "STF — PET 10.543/DF",
+"url": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/"
+}
+]
+},
+{
+"id": "ibaneis-rocha-atos",
+"user": "ibaneis-rocha",
+"date": "2025-03-05",
+"medida": "arquivamento",
+"texto": "IBANEIS ROCHA | RESPONSABILIDADE PELOS ATOS DE 8 DE JANEIRO\n\nEx-governador do Distrito Federal afastado pelo STF em janeiro de 2023, Ibaneis Rocha teve o Inquérito 4.923 arquivado em relação a si por ausência de elementos suficientes de responsabilidade criminal.",
+"fonte": "STF — ADPF 1.058 e INQ 4.923",
+"passos": [
+{
+"a": "moraes",
+"d": "2023-01-09",
+"t": "Moraes afastou Ibaneis Rocha do cargo de governador do DF por 90 dias, no âmbito da ADPF 1.058, para apurar sua eventual responsabilidade pelos acontecimentos de 8 de janeiro.",
+"k": "decisao",
+"f": "STF — ADPF 1.058",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-01-09",
+"t": "A decisão apontou possíveis falhas da Secretaria de Segurança Pública e do comando da Polícia Militar e determinou a apuração de condutas comissivas ou omissivas relacionadas à invasão dos prédios públicos.",
+"k": "investigado",
+"f": "STF — ADPF 1.058",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-01-12",
+"t": "Foi protocolado o Inquérito 4.923/DF sob relatoria de Moraes para investigar Ibaneis Rocha, Anderson Torres, Fernando de Sousa Oliveira e Fábio Augusto Vieira.",
+"k": "investigado",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023",
+"t": "Foram autorizadas diligências, incluindo sigilos telefônico e telemático, apreensão e análise de equipamentos, extração de dados celulares, oitiva pela PF e análise das comunicações sobre os dias 7 e 8 de janeiro.",
+"k": "busca",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "pf",
+"d": "2023",
+"t": "A Polícia Federal analisou as comunicações do governador e identificou 36 ligações recebidas ou realizadas nas datas investigadas. Documentos examinados incluíam manifestações contrárias aos ataques e pedidos de apoio da Força Nacional.",
+"k": "investigado",
+"f": "Relatório da Polícia Federal no INQ 4.923"
+},
+{
+"a": "moraes",
+"d": "2023",
+"t": "A defesa pediu o arquivamento, mas Moraes considerou prematuro o encerramento e determinou a continuidade das diligências até o relatório final da Polícia Federal.",
+"k": "decisao",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "pgr",
+"d": "2025-02",
+"t": "A PGR manifestou-se pelo arquivamento em relação a Ibaneis. Segundo a manifestação, os elementos não demonstravam alteração do planejamento de segurança, desfeito de ordens, omissão de informações às autoridades federais, impedimento da repressão ou apagamento de dados.",
+"k": "arquivamento",
+"f": "Manifestação da PGR no INQ 4.923"
+},
+{
+"a": "moraes",
+"d": "2025-02-28",
+"t": "Moraes acolheu o pedido da PGR e determinou o arquivamento do Inquérito 4.923 em relação a Ibaneis Rocha. A decisão foi publicada em 5 de março de 2025.",
+"k": "arquivamento",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2025-02-28",
+"t": "Moraes destacou que cabe ao Ministério Público a titularidade da ação penal pública e que o Judiciário não pode substituir uma manifestação ministerial para promover uma acusação. O desfecho extinguiu a investigação específica contra Ibaneis sem condenação.",
+"k": "arquivamento",
+"f": "STF — INQ 4.923",
+"c": true
+}
+],
+"notes": [
+{
+"text": "O afastamento cautelar do cargo ocorreu na ADPF 1.058. A investigação criminal foi tratada no INQ 4.923/DF e arquivada em relação a Ibaneis Rocha em 28/02/2025.",
+"source": "STF — ADPF 1.058 e INQ 4.923"
+}
+]
+},
+{
+"id": "fabio-vieira-pmdf",
+"user": "fabio-vieira",
+"date": "2026-04-08",
+"medida": "prisao",
+"texto": "FÁBIO AUGUSTO VIEIRA | CÚPULA DA PMDF NO 8 DE JANEIRO\n\nCoronel da Polícia Militar do DF e comandante-geral durante os atos de 8 de janeiro de 2023, Fábio Vieira foi alvo de medidas judiciais nos Inquéritos 4.879 e 4.923 e posteriormente condenado na Ação Penal 2.417.",
+"fonte": "STF — INQ 4.879, INQ 4.923 e AP 2.417",
+"passos": [
+{
+"a": "moraes",
+"d": "2023-01-10",
+"t": "Atendendo representação do diretor-geral da PF, Moraes decretou prisão preventiva de Fábio Vieira e autorizou busca e apreensão por indícios de possíveis omissões dolosas da segurança do DF durante os ataques de 8 de janeiro.",
+"k": "prisao",
+"f": "STF — Inquéritos 4.879 e 4.923",
+"c": true
+},
+{
+"a": "plenario",
+"d": "2023-01-11",
+"t": "O Plenário do STF referendou por maioria a prisão preventiva. A decisão citou falta de policiamento adequado, ausência de mobilização do Comando de Choque e entrada de mais de 100 ônibus em Brasília sem acompanhamento policial.",
+"k": "prisao",
+"f": "STF — Inquérito 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-01-13",
+"t": "A pedido da PGR, Moraes determinou a instauração do Inquérito 4.923 para apurar Fábio Vieira, Anderson Torres, Ibaneis Rocha e Fernando de Sousa Oliveira por atos de 8 de janeiro.",
+"k": "investigado",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-02-03",
+"t": "Moraes revogou a prisão preventiva e concedeu liberdade provisória. O relatório de Ricardo Cappelli indicava atuação direta de Vieira na operação, ferimentos sofridos e pedidos de reforço não atendidos. Foi proibido deixar o DF sem comunicar previamente ao STF.",
+"k": "decisao",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-02",
+"t": "A PF apreendeu um celular, notebook e dois discos rígidos. Moraes autorizou extração dos dados para perícia e, em seguida, requisitou à PF manifestação sobre a manutenção da apreensão após pedido de devolução pela defesa.",
+"k": "busca",
+"f": "STF — Inquérito 4.923",
+"c": true
+},
+{
+"a": "pgr",
+"d": "2023-08",
+"t": "A PGR denunciou sete integrantes da cúpula da PMDF. Fábio Vieira voltou a ser alvo de prisão no contexto das diligências sobre suposta omissão deliberada da estrutura de comando.",
+"k": "decisao",
+"f": "STF — Denúncia contra cúpula da PMDF"
+},
+{
+"a": "turma1",
+"d": "2024-02-21",
+"t": "A Primeira Turma recebeu a denúncia, iniciando a Ação Penal 2.417. Os denunciados foram acusados de tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado e deterioração de patrimônio tombado.",
+"k": "decisao",
+"f": "STF — AP 2.417",
+"c": true
+},
+{
+"a": "turma1",
+"d": "2025-12-05",
+"t": "A Primeira Turma condenou Fábio Augusto Vieira a 16 anos de prisão. Moraes considerou insuficiente o planejamento operacional, a permanência da Tropa de Choque na retaguarda e a demora aproximada de 90 minutos para mobilizá-la após solicitação da Polícia Legislativa.",
+"k": "decisao",
+"f": "STF — AP 2.417",
+"c": true
+},
+{
+"a": "turma1",
+"d": "2025-12-05",
+"t": "A condenação determinou regime inicial fechado, 100 dias-multa, perda do cargo público e responsabilidade solidária pelo pagamento de R$ 30 milhões em indenização por danos morais coletivos, junto a outros condenados pelos atos de 8 de janeiro.",
+"k": "prisao",
+"f": "STF — AP 2.417",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2026-03-12",
+"t": "Após o esgotamento dos recursos, Moraes determinou início imediato da pena e Vieira foi encaminhado ao 19º Batalhão da PM, no Complexo da Papuda. Em 8 de abril de 2026, o ministro determinou formalização da perda dos cargos públicos dos cinco oficiais condenados.",
+"k": "prisao",
+"f": "STF — AP 2.417",
+"c": true
+}
+],
+"notes": [
+{
+"text": "INQ 4.879: investigação dos atos antidemocráticos. INQ 4.923: investigação sobre responsabilidades das autoridades do DF. AP 2.417: ação penal contra a cúpula da PMDF. Relator: Alexandre de Moraes.",
+"source": "STF — INQ 4.879, INQ 4.923 e AP 2.417"
+}
+]
+},
+{
+"id": "anderson-torres-atos",
+"user": "anderson-torres",
+"date": "2025-11-25",
+"medida": "prisao",
+"texto": "ANDERSON GUSTAVO TORRES | ATOS DE 8 DE JANUÁRIO E TENTATIVA DE GOLPE\n\nEx-ministro da Justiça e ex-secretário de Segurança Pública do Distrito Federal, Anderson Torres foi investigado e condenado pelo STF em processos relacionados aos atos de 8 de janeiro de 2023 e à tentativa de ruptura institucional.",
+"fonte": "STF — INQ 4.923 e AP 2.668",
+"passos": [
+{
+"a": "moraes",
+"d": "2023-01-10",
+"t": "Moraes decretou a prisão preventiva de Anderson Torres no Inquérito 4.923, que apurava a responsabilidade de autoridades da segurança pública do DF pelos atos de 8 de janeiro. A ordem foi cumprida em 14 de janeiro, após seu retorno ao Brasil.",
+"k": "prisao",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "pgr",
+"d": "2023-01",
+"t": "A investigação apurou possível omissão deliberada diante da invasão das sedes dos Três Poderes. A PGR sustentou que Torres teria descumprido deveres funcionais de planejamento e execução da segurança.",
+"k": "investigado",
+"f": "STF — INQ 4.923"
+},
+{
+"a": "moraes",
+"d": "2023-01",
+"t": "Foi apreendida na residência de Torres uma minuta de decreto prevendo Estado de Defesa no TSE. Moraes determinou perícia para apurar origem, autenticidade e relação com os acontecimentos investigados.",
+"k": "busca",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-03-01",
+"t": "Moraes indeferiu o primeiro pedido de revogação da prisão preventiva. Manteve a custódia diante dos requisitos da garantia da ordem pública e da conveniência da instrução criminal.",
+"k": "decisao",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-04-20",
+"t": "Moraes negou novamente a liberdade provisória, destacando a necessidade de aprofundar a análise da minuta golpista, documentos e depoimentos, além da atuação da Polícia Rodoviária Federal no segundo turno de 2022.",
+"k": "decisao",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-05-11",
+"t": "A prisão preventiva foi revogada e substituída por cautelares: monitoramento eletrônico, recolhimento noturno e nos fins de semana, proibição de redes sociais e contato com investigados, vedação de saída do DF, suspensão do porte de armas, afastamento da delegacia da PF e comparecimento semanal.",
+"k": "decisao",
+"f": "STF — INQ 4.923",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2025",
+"t": "Torres passou a responder à Ação Penal 2.668, relativa ao núcleo central da tentativa de golpe. A denúncia da PGR foi recebida pela Primeira Turma do STF e a instrução teve início.",
+"k": "decisao",
+"f": "STF — AP 2.668",
+"c": true
+},
+{
+"a": "turma1",
+"d": "2025-09-11",
+"t": "Por maioria, a Primeira Turma condenou Anderson Torres por organização criminosa armada, tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado e deterioração de patrimônio tombado.",
+"k": "decisao",
+"f": "STF — AP 2.668",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2025-11-25",
+"t": "A pena foi fixada em 24 anos: 21 anos e 6 meses de reclusão e 2 anos e 6 meses de detenção, mais 100 dias-multa, em regime inicial fechado. Moraes declarou o trânsito em julgado em 25/11/2025 e determinou o cumprimento imediato; a Turma referendou por unanimidade em 26/11.",
+"k": "prisao",
+"f": "STF — AP 2.668",
+"c": true
+}
+],
+"notes": [
+{
+"text": "INQ 4.923: investigação sobre a atuação de autoridades nos atos de 8 de janeiro. AP 2.668: ação penal sobre a tentativa de golpe de Estado. Relator: Alexandre de Moraes. Torres foi encaminhado ao 19º Batalhão da Polícia Militar, no Complexo Penitenciário da Papuda, em Brasília.",
+"source": "STF — INQ 4.923 e AP 2.668"
+}
+]
+},
+{
+"id": "ivan-wrobel-pet10543",
+"user": "ivan-wrobel",
+"date": "2023-08-18",
+"medida": "arquivamento",
+"texto": "IVAN WROBEL | EMPRESÁRIO LIGADO À W3 ENGENHARIA\n\nIvan Wrobel foi um dos oito empresários investigados pelo STF após mensagens trocadas no grupo de WhatsApp “Empresários & Política”. A investigação tramitou na PET 10.543/DF, distribuída por prevenção ao Inquérito 4.874 sob relatoria de Alexandre de Moraes.",
+"fonte": "STF — PET 10.543/DF",
+"passos": [
+{
+"a": "moraes",
+"d": "2022-08-19",
+"t": "Moraes deferiu representações policiais por medidas cautelares contra oito empresários, entre eles Ivan Wrobel. A investigação apurou mensagens sobre a possibilidade de ruptura institucional caso Lula vencesse as eleições de 2022.",
+"k": "decisao",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2022-08-19",
+"t": "Entre as medidas contra Ivan estavam busca e apreensão, afastamento do sigilo telemático e bancário, bloqueio das contas, identificação de linhas telefônicas cadastradas em seu nome e oitiva pela Polícia Federal.",
+"k": "busca",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2022-08-19",
+"t": "A decisão alcançou dados armazenados em serviços de nuvem, como Google e Apple, e informações vinculadas ao WhatsApp. Foram expedidas providências a operadoras e plataformas para obtenção e preservação dos dados.",
+"k": "busca",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2022-08-19",
+"t": "O afastamento do sigilo bancário abrangeu o período de 1º de janeiro de 2020 a 19 de agosto de 2022 e alcançou a W3 Engenharia, empresa vinculada a Ivan. As instituições financeiras foram intimadas a bloquear as contas dos investigados.",
+"k": "bloqueio",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "pgr",
+"d": "2022-09",
+"t": "A PGR apresentou agravo regimental contra a decisão, questionando competência, sistema acusatório, proporcionalidade, ausência de prévia manifestação ministerial e possível fishing expedition ou falta de justa causa.",
+"k": "decisao",
+"f": "Agravo regimental da PGR na PET 10.543/DF"
+},
+{
+"a": "moraes",
+"d": "2022-09",
+"t": "Moraes determinou o desbloqueio das contas bancárias dos oito empresários. O ministro considerou que, após o feriado de 7 de setembro e o afastamento do sigilo bancário, não subsistia a necessidade de manutenção do bloqueio.",
+"k": "decisao",
+"f": "Decisão na PET 10.543/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-08-18",
+"t": "Moraes determinou o arquivamento da investigação em relação a Ivan Wrobel e outros cinco empresários, reconhecendo a ausência de elementos indiciários mínimos para justificar a continuidade da investigação criminal.",
+"k": "arquivamento",
+"f": "STF — Arquivamento de investigação contra empresários na PET 10.543",
+"u": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2023-08-18",
+"t": "A apuração foi mantida em relação a Luciano Hang e Meyer Nigri. Ivan teve a investigação arquivada após ter sido submetido a busca e apreensão, quebra de sigilos e bloqueio de contas.",
+"k": "arquivamento",
+"f": "STF — Arquivamento de investigação contra empresários na PET 10.543",
+"u": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/",
+"c": true
+}
+],
+"notes": [
+{
+"text": "Processo: PET 10.543/DF. Inquérito relacionado: INQ 4.874. Relator: Alexandre de Moraes. Ivan Wrobel foi alvo de cautelares invasivas, mas teve a investigação arquivada por decisão do próprio relator em 18/08/2023.",
+"source": "STF — PET 10.543/DF",
+"url": "https://noticias.stf.jus.br/postsnoticias/supremo-arquiva-investigacao-contra-empresarios-suspeitos-de-defender-golpe-de-estado/"
+}
+]
+},
+{
+"id": "juan-breno-malta-acao",
+"user": "juan-breno-malta",
+"date": "2025-11-08",
+"medida": "investigado",
+"texto": "JUAN BRENO MALTA RAMOS RODRIGUES | BMW / REX\n\nConhecido como “BMW” ou “Rex”, Juan Breno foi identificado pelo MPRJ como uma das lideranças operacionais do Comando Vermelho na Grande Jacarepaguá. Seu nome aparece na ação penal nº 0840740-85.2025.8.19.0001.",
+"fonte": "Ação penal nº 0840740-85.2025.8.19.0001; ADPF 635",
+"passos": [
+{
+"a": "mprj",
+"d": "2024-02-27",
+"t": "A investigação teve origem no Inquérito Policial 904-00011/2024, instaurado para apurar associação para o tráfico de drogas.",
+"k": "investigado",
+"f": "Inquérito Policial 904-00011/2024"
+},
+{
+"a": "mprj",
+"d": "2025-03-18",
+"t": "Após compartilhamento judicialmente autorizado de provas e aprofundamento das diligências, foi instaurado o Inquérito Policial 902-00111/2025.",
+"k": "investigado",
+"f": "Inquérito Policial 902-00111/2025"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "Segundo a denúncia, Juan seria responsável pela “Equipe Sombra”, apontada como estrutura armada para expansão territorial do Comando Vermelho na Grande Jacarepaguá. O grupo teria executado rivais, imposto punições violentas e treinado integrantes para uso de armamento pesado.",
+"k": "investigado",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "A investigação reuniu conversas interceptadas, registros audiovisuais e elementos digitais. Um episódio atribuiu à estrutura a tortura de Aldenir Martins do Monte Júnior, que teria sido amarrado e arrastado por veículo. Juan apareceria em registros comentando o sofrimento da vítima.",
+"k": "investigado",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "A 42ª Vara Criminal da Comarca da Capital recebeu a denúncia contra 69 investigados. Na mesma decisão, foram decretadas prisões preventivas de 51 denunciados e autorizados mandados de busca e apreensão contra 54 alvos, abrangendo 145 endereços.",
+"k": "decisao",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "mprj",
+"d": "2025-07-08",
+"t": "Juan foi denunciado, em tese, por associação para o tráfico com causas de aumento previstas no art. 35 c/c art. 40, III, IV e VI da Lei 11.343/2006, além de tortura pelo art. 1º, II, da Lei 9.455/1997. A denúncia não representa, por si só, condenação criminal.",
+"k": "investigado",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001"
+},
+{
+"a": "moraes",
+"d": "2025-10-28",
+"t": "Foi deflagrada a Operação Contenção nos Complexos da Penha e do Alemão, com fundamento nas investigações estaduais e no cumprimento das ordens judiciais expedidas pela 42ª Vara Criminal.",
+"k": "busca",
+"f": "Ação penal nº 0840740-85.2025.8.19.0001; ADPF 635"
+},
+{
+"a": "moraes",
+"d": "2025-11-08",
+"t": "Como relator da ADPF 635 no STF, Moraes determinou a preservação das imagens das câmeras corporais, laudos necroscópicos e registros fotográficos; a identificação de investigados presos ou mortos e de quem possuía mandados; o envio das audiências de custódia; e a íntegra do procedimento sobre possíveis abusos policiais. A decisão também suspendeu o Inquérito Policial 022-09699/2025 e a reclamação tramitante no Conselho Nacional do Ministério Público.",
+"k": "decisao",
+"f": "STF — ADPF 635",
+"c": true
+}
+],
+"notes": [
+{
+"text": "A atuação de Moraes ocorreu no âmbito da ADPF 635, voltada à fiscalização dos desdobramentos da Operação Contenção, à preservação de provas e ao controle institucional. Processo criminal: 0840740-85.2025.8.19.0001. Processo no STF: ADPF 635.",
+"source": "Ação penal nº 0840740-85.2025.8.19.0001; STF — ADPF 635"
+}
+]
+},
+{
+"id": "franklin-inq5020",
+"user": "franklin-alves",
+"date": "2026-03-06",
+"medida": "prisao",
+"pinned": true,
+"texto": "🚨 FRANKLIN ALVES | AS MEDIDAS DE ALEXANDRE DE MORAES\n\nO comissário da Polícia Civil do RJ, Franklin José de Oliveira Alves, passou a ser alvo de medidas cautelares determinadas pelo ministro Alexandre de Moraes no Inquérito 5.020, que apura conexões entre agentes públicos e organizações criminosas no Rio de Janeiro.",
+"fonte": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"passos": [
+{
+"a": "pf",
+"d": "2026-02-13",
+"t": "A Polícia Federal apresentou representação ao STF requerendo prisão preventiva, afastamento das funções públicas, busca e apreensão e indisponibilidade de bens e valores contra Franklin e outros integrantes do núcleo investigado.",
+"k": "decisao",
+"f": "Representação da Polícia Federal no INQ 5.020/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "Após manifestação favorável da Procuradoria-Geral da República, Moraes acolheu os pedidos cautelares da PF e determinou a prisão preventiva de Franklin, além de outros investigados.",
+"k": "prisao",
+"f": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "A decisão determinou o afastamento de Franklin do exercício da função pública, com fundamento no art. 319, VI, do Código de Processo Penal, enquanto durasse a investigação.",
+"k": "decisao",
+"f": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "Moraes autorizou buscas domiciliares e pessoais, incluindo apreensão de aparelhos eletrônicos, documentos e outros elementos relacionados aos fatos.",
+"k": "busca",
+"f": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "A decisão também determinou o afastamento do sigilo dos dados telefônicos, abrangendo registros de chamadas, conexões e informações de estações rádio-base (ERBs).",
+"k": "decisao",
+"f": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"c": true
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "No campo patrimonial, Moraes determinou a indisponibilidade de valores em contas bancárias e bens de Franklin, de outros investigados e de empresas relacionadas ao núcleo.",
+"k": "decisao",
+"f": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"c": true
+},
+{
+"a": "pf",
+"d": "2026-03-06",
+"t": "Segundo a PF, Franklin teria atuado diretamente na exigência ilícita de R$ 1,5 milhão de Gabriel Dias de Oliveira, conhecido como Índio do Lixão, mantendo contatos com intermediários para cobrar vantagens indevidas, impor prazos e pressionar pessoas próximas ao investigado. Os fatos foram, em tese, enquadrados como extorsão majorada e obstrução de investigação envolvendo organização criminosa armada.",
+"k": "investigado",
+"f": "Representação da Polícia Federal no INQ 5.020/DF",
+"c": true
+}
+],
+"notes": [
+{
+"text": "Fonte primária: decisão de Alexandre de Moraes no INQ 5.020/DF, de 6 de março de 2026. As condutas descritas integram a hipótese investigativa apresentada pela Polícia Federal e acolhida na fundamentação das medidas cautelares. Não equivalem, por si só, a uma condenação criminal.",
+"source": "STF — INQ 5.020/DF"
+}
+]
+},
+{
+"id": "leandro-inq5020",
+"user": "leandro-moutinho",
+"date": "2026-03-06",
+"medida": "prisao",
+"pinned": false,
+"texto": "1/9 — Leandro Moutinho de Deus, oficial de cartório da Polícia Civil do Rio de Janeiro, foi alvo de prisão preventiva determinada por Alexandre de Moraes em 6 de março de 2026, no âmbito do Inquérito 5.020.",
+"fonte": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"passos": [
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "2/9 — A investigação apura suposta conexão entre agentes públicos e organizações criminosas no Rio de Janeiro. No caso de Leandro, a apuração se concentrou em um núcleo policial ligado à 44ª DP, em Inhaúma.",
+"k": "investigado",
+"f": "Representação da Polícia Federal no INQ 5.020/DF"
+},
+{
+"a": "pf",
+"d": "2026-03-06",
+"t": "3/9 — Segundo a representação da PF, Leandro, Marcus Henrique de Oliveira Alves, Franklin José de Oliveira Alves e Luiz Eduardo Cunha Gonçalves teriam exigido R$ 1,5 milhão de Gabriel Dias de Oliveira, conhecido como Índio do Lixão, para interromper investigação da 44ª DP.",
+"k": "investigado",
+"f": "Representação da Polícia Federal no INQ 5.020/DF"
+},
+{
+"a": "leandro-moutinho",
+"d": "2026-03-06",
+"t": "4/9 — A decisão relata que Leandro teria atuado como intermediário nas negociações de propina entre os envolvidos. A PF afirmou que os elementos incluíam dados extraídos de aparelhos celulares apreendidos.",
+"k": "investigado",
+"f": "Decisão no INQ 5.020/DF"
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "5/9 — Moraes acolheu os pedidos da PF após manifestação favorável da PGR e decretou prisão preventiva dos investigados. Também determinou buscas e afastamento de sigilos telefônico e telemático.",
+"k": "prisao",
+"f": "Decisão no INQ 5.020/DF"
+},
+{
+"a": "moraes",
+"d": "2026-03-11",
+"t": "6/9 — No caso de Leandro, foram determinadas medidas como afastamento do cargo público, buscas domiciliar e pessoal e obtenção de dados telefônicos. A PF informou o cumprimento em 11 de março; a audiência de custódia ocorreu em 12 de março.",
+"k": "decisao",
+"f": "Decisão no INQ 5.020/DF"
+},
+{
+"a": "moraes",
+"d": "2026-09-21",
+"t": "7/9 — Moraes manteve a prisão preventiva de Leandro em 8 de junho, 29 de junho e 21 de setembro de 2026.",
+"k": "prisao",
+"f": "Andamentos informados pelo usuário"
+},
+{
+"a": "pgr",
+"d": "2026-07-07",
+"t": "8/9 — Em 7 de julho de 2026, a PGR ofereceu denúncia contra Leandro, Marcus Henrique, Franklin José e Luiz Eduardo Cunha. A acusação atribuiu ao grupo, em tese, extorsão majorada e obstrução de investigação de organização criminosa.",
+"k": "investigado",
+"f": "Denúncia da PGR"
+},
+{
+"a": "moraes",
+"d": "2026-09-21",
+"t": "9/9 — O caso avançou da fase investigativa para a acusação formal. A denúncia ainda depende de apreciação judicial e não representa condenação. A atuação de Moraes está documentada no INQ 5.020/DF.",
+"k": "decisao",
+"f": "Síntese processual fornecida"
+}
+],
+"notes": [
+{
+"text": "A prisão, o afastamento e as buscas são medidas cautelares. A denúncia formal da PGR ainda depende de apreciação judicial e não equivale a condenação definitiva.",
+"source": "Síntese processual fornecida pelo usuário"
+}
+]
+},
+{
+"id": "dudu-inq5020",
+"user": "dudu-cunha",
+"date": "2026-03-06",
+"medida": "prisao",
+"pinned": false,
+"texto": "1/8 — Luiz Eduardo Cunha Gonçalves, conhecido como Dudu e ex-assessor parlamentar do ex-deputado estadual TH Joias, foi alvo de prisão preventiva determinada por Alexandre de Moraes em 6 de março de 2026, no âmbito do Inquérito 5.020.",
+"fonte": "Decisão de Alexandre de Moraes no INQ 5.020/DF",
+"passos": [
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "2/8 — A investigação apura organizações criminosas no Rio de Janeiro e suas conexões com agentes públicos. Dudu foi apontado pela PF como integrante de núcleo ligado a policiais civis da 44ª DP, em Inhaúma.",
+"k": "investigado",
+"f": "Representação da Polícia Federal no INQ 5.020/DF"
+},
+{
+"a": "pf",
+"d": "2026-03-06",
+"t": "3/8 — A decisão utilizou dados extraídos de celulares apreendidos com Dudu e com Gabriel Dias de Oliveira, o Índio do Lixão, apontado pela PF como integrante de alto escalão do Comando Vermelho.",
+"k": "investigado",
+"f": "Decisão no INQ 5.020/DF"
+},
+{
+"a": "dudu-cunha",
+"d": "2026-03-06",
+"t": "4/8 — A PF sustentou que Dudu atuou como intermediário na negociação de R$ 1,5 milhão exigida por policiais civis de Gabriel Dias de Oliveira para encerrar investigação na 44ª DP.",
+"k": "investigado",
+"f": "Representação da Polícia Federal no INQ 5.020/DF"
+},
+{
+"a": "moraes",
+"d": "2026-03-06",
+"t": "5/8 — Após representação da PF e manifestação favorável da PGR, Moraes decretou a prisão preventiva de Dudu e de outros investigados e autorizou buscas e diligências.",
+"k": "prisao",
+"f": "Decisão no INQ 5.020/DF"
+},
+{
+"a": "pf",
+"d": "2026-03-06",
+"t": "6/8 — A decisão destacou conversas e registros extraídos dos aparelhos celulares. Dudu foi apontado como intermediário entre policiais e traficantes nas tratativas envolvendo o pagamento.",
+"k": "investigado",
+"f": "Decisão no INQ 5.020/DF"
+},
+{
+"a": "pf",
+"d": "2026-03-11",
+"t": "7/8 — Em 11 de março de 2026, o STF tornou pública a decisão e informou que a PF havia cumprido a prisão de Dudu. Moraes determinou afastamento de investigados que ocupavam cargos públicos.",
+"k": "prisao",
+"f": "STF — INQ 5.020/DF"
+},
+{
+"a": "pf",
+"d": "2026-09",
+"t": "8/8 — Posteriormente, Dudu passou a responder a ação penal na Justiça Federal no contexto da Operação Zargun. Em setembro de 2026, o TRF-2 recebeu denúncia do MPF contra Dudu, TH Joias, Gabriel Dias de Oliveira e outros por organização criminosa, tráfico de drogas e armas, contrabando e corrupção.",
+"k": "investigado",
+"f": "Síntese processual fornecida"
+}
+],
+"notes": [
+{
+"text": "O recebimento da denúncia pelo TRF-2 significa o início ou a abertura da ação penal na Justiça Federal. Não representa condenação nem demonstra o desfecho definitivo dos fatos.",
+"source": "Síntese processual fornecida pelo usuário"
+}
+]
+},
+{
 "id": "pet-15620-alessandro",
 "user": "alessandro-carracena",
 "date": "2026-03-06",
@@ -2530,8 +3855,8 @@ window.DATA={
 {"name": "Bia Kicis", "profile": "kicis", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
 {"name": "Carla Zambelli", "profile": "zambelli", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
 {"name": "Daniel Silveira", "profile": "silveira", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
-{"name": "Aline Sleutjes", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
-{"name": "Arolde de Oliveira", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Aline Sleutjes", "profile": "aline", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]},
+{"name": "Arolde de Oliveira", "profile": "arolde", "relation": "Teve o sigilo bancário e fiscal abrangido pela medida, com período de 19/04/2019 a 03/05/2020.", "sources": [2, 3]},
 {"name": "Eliéser Girão (General Girão)", "profile": "girao", "relation": "Teve o sigilo financeiro quebrado no inquérito.", "sources": [2, 3]}
 ]
 }
@@ -2569,8 +3894,8 @@ window.DATA={
 "note": "Não confundir esta apuração sobre empresários com o Inq. 4.874.",
 "people": [
 {"name": "Luciano Hang", "profile": "hang", "relation": "Permaneceu sob investigação na PET 10.543 em agosto de 2023.", "sources": [4]},
-{"name": "Meyer Joseph Nigri", "relation": "Permaneceu sob investigação na PET 10.543 em agosto de 2023.", "sources": [4]},
-{"name": "Ivan Wrobel", "relation": "Foi um dos empresários cuja investigação na PET 10.543 foi arquivada em agosto de 2023.", "sources": [4]}
+{"name": "Meyer Joseph Nigri", "profile": "meyer-nigri", "relation": "Fundador da Tecnisa; permaneceu sob investigação na PET 10.543 por 60 dias adicionais em agosto de 2023.", "sources": [4]},
+{"name": "Ivan Wrobel", "profile": "ivan-wrobel", "relation": "Empresário ligado à W3 Engenharia; a investigação na PET 10.543 foi arquivada em agosto de 2023 por ausência de elementos indiciários mínimos.", "sources": [4]}
 ]
 }
 ],
@@ -2588,10 +3913,35 @@ window.DATA={
 ]
 },
 {
+"id": "4877",
+"title": "Inq. 4.877 — Movimentações financeiras de Aline Sleutjes",
+"summary": "Investigação específica criada a partir do Inq. 4.828/DF para apurar depósitos feitos por funcionários do gabinete da então deputada Aline Sleutjes em suas contas bancárias.",
+"status": "Inquérito instaurado em 1º/07/2021, sob relatoria do ministro Gilmar Mendes. Em 15/09/2021, Moraes autorizou compartilhamento de elementos do Inq. 4.828/DF. A situação processual final não está definida nesta síntese.",
+"groups": [
+{
+"title": "Vínculos documentados",
+"identifier": "#Inq4877",
+"people": [
+{"name": "Aline Sleutjes", "profile": "aline", "relation": "Investigada sobre depósitos feitos por servidores do gabinete em suas contas bancárias.", "sources": [0, 1]},
+{"name": "Alexandre de Moraes", "profile": "moraes", "relation": "Determinou o compartilhamento dos elementos do Inq. 4.828/DF em 15/09/2021.", "sources": [1]},
+{"name": "Gilmar Mendes", "profile": "gilmar", "relation": "Recebeu a relatoria do procedimento específico Inq. 4.877/DF.", "sources": [0]}
+]
+}
+],
+"notes": [
+{"text": "Os depósitos identificados pela PF somam aproximadamente R$ 178 mil. Aline apresentou explicações para parte dos valores e declarou não se recordar da motivação de outros depósitos. Isso não equivale, por si só, a condenação."},
+{"text": "A investigação específica não deve ser confundida com o Inq. 4.828/DF, que apurava atos antidemocráticos e foi arquivado em 1º/07/2021 após manifestação da PGR.", "sources": [0]}
+],
+"sources": [
+{"title": "STF — Arquivamento do Inq. 4.828 e determinação de abertura de investigação específica", "date": "2021-07-01", "url": "https://noticias.stf.jus.br/postsnoticias/ministro-determina-abertura-de-inquerito-sobre-organizacao-criminosa-que-atua-contra-a-democracia/"},
+{"title": "Síntese processual fornecida — compartilhamento de elementos com o Inq. 4.877/DF", "date": "2021-09-15"}
+]
+},
+{
 "id": "4878",
 "title": "Inq. 4.878 — Divulgação de investigação sigilosa sobre ataque ao TSE",
 "summary": "Apuração sobre a divulgação, em live e nas redes sociais, de informações de um inquérito sigiloso da Polícia Federal que investigava um ataque hacker ao TSE.",
-"status": "Em agosto de 2022, Alexandre de Moraes rejeitou pedido da PGR para arquivar o inquérito e informou que diligências ainda estavam em andamento. A decisão final não foi confirmada nas fontes consultadas.",
+"status": "Em agosto de 2022, Alexandre de Moraes rejeitou pedido da PGR para arquivar o inquérito e determinou análise de dados obtidos por quebra de sigilo telemático. Em outubro de 2024, a Primeira Turma manteve a necessidade dessa análise. Nos documentos consultados, não foi localizada condenação de Victor.",
 "groups": [
 {
 "title": "Pessoas e vínculos documentados",
@@ -2599,7 +3949,7 @@ window.DATA={
 "people": [
 {"name": "Jair Bolsonaro", "profile": "bolsonaro", "relation": "Apontado como sujeito da apuração sobre a divulgação de trechos do inquérito sigiloso durante live em 04/08/2021. O relatório da PF descreveu conduta voluntária, mas não houve indiciamento.", "sources": [0, 1]},
 {"name": "Filipe Barros", "profile": "barros", "relation": "Apontado como sujeito da apuração e participante da divulgação. O relatório da PF descreveu conduta voluntária, mas não houve indiciamento.", "sources": [0]},
-{"name": "Victor Neves Feitosa Campos", "relation": "Mencionado na notícia-crime inicial encaminhada pelo TSE; as fontes consultadas não confirmam contra ele conclusão ou medida equivalente às descritas para Bolsonaro e Filipe Barros.", "sources": [0]}
+{"name": "Victor Neves Feitosa Campos", "profile": "victor-campos", "relation": "Delegado da PF investigado por eventual encaminhamento indevido de cópia do IPL 1.361/2018 a Filipe Barros; afastado da presidência do inquérito original. A conclusão policial foi apresentada em relatório, sem sentença condenatória.", "sources": [0]}
 ]
 }
 ],
@@ -2621,16 +3971,16 @@ window.DATA={
 "people": [
 {"name": "Otoni de Paula", "relation": "Alvo de busca e apreensão na operação de agosto de 2021.", "sources": [0]},
 {"name": "Sérgio Reis", "relation": "Alvo de busca e apreensão na operação de agosto de 2021.", "sources": [0]},
-{"name": "Marcio Giovani Niquelatti (Professor Marcinho)", "relation": "Teve prisão preventiva decretada e executada em setembro de 2021.", "sources": [1]},
+{"name": "Márcio Giovani Niquelatti (Professor Marcinho)", "profile": "marcio-niquelatti", "relation": "Prisão preventiva decretada por Moraes e cumprida pela PF em setembro de 2021; solto em outubro. Redes sociais liberadas em fevereiro de 2025.", "sources": [1]},
 {"name": "Cássio Rodrigues de Souza", "relation": "Teve prisão preventiva decretada e executada em setembro de 2021.", "sources": [1]},
 {"name": "Gilmar João Alba", "relation": "Foi alvo de busca e apreensão; a notícia oficial descreve uma suspeita investigada, não uma conclusão de culpa.", "sources": [1]},
-{"name": "Marcos Antônio Pereira Gomes (Zé Trovão)", "relation": "Investigado no Inq. 4.879; teve prisão preventiva decretada, depois passou à prisão domiciliar e a outras cautelares, revogadas em maio de 2023.", "sources": [0, 2, 3]},
+{"name": "Marcos Antônio Pereira Gomes (Zé Trovão)", "profile": "ze-trovao", "relation": "Prisão preventiva decretada em 1º/09/2021, mantida após retorno ao exterior, cumprida em 26/10/2021 e convertida em domiciliar em 17/12/2021; cautelares revogadas em 12/05/2023.", "sources": [0, 2, 3]},
 {"name": "Antônio Galvan", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
 {"name": "Wellington Macedo de Souza", "relation": "Investigado; posteriormente recebeu prisão domiciliar com restrições.", "sources": [0, 4]},
 {"name": "Turíbio Torres", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
 {"name": "Juliano da Silva Martins", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
 {"name": "Alexandre Urbano Raitz Petersen", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
-{"name": "Bruno Henrique Semczeszm", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]},
+{"name": "Bruno Henrique Semczeszm", "profile": "bruno-semczeszm", "relation": "Incluído no Inq. 4.879/DF no contexto das convocações para os atos de 7 de setembro de 2021. A inclusão não equivale a condenação.", "sources": [0]},
 {"name": "Eduardo Oliveira Araújo", "relation": "Nome incluído na decisão que autorizou diligências relacionadas aos atos de 7 de setembro.", "sources": [0]}
 ]
 },
@@ -2640,7 +3990,7 @@ window.DATA={
 "note": "Estes vínculos se referem à apuração de possíveis responsabilidades ou omissões em relação aos atos de 8 de janeiro, não às convocações para 7 de setembro.",
 "people": [
 {"name": "Anderson Torres", "relation": "Investigado em relação a possível responsabilidade ou omissão nos atos de 8 de janeiro.", "sources": [5]},
-{"name": "Ibaneis Rocha", "relation": "Investigado em relação a possível responsabilidade ou omissão nos atos de 8 de janeiro.", "sources": [5]},
+{"name": "Ibaneis Rocha", "profile": "ibaneis-rocha", "relation": "Investigado em relação a possível responsabilidade ou omissão nos atos de 8 de janeiro; o Inquérito 4.923 foi arquivado em relação a ele em 28/02/2025.", "sources": [5]},
 {"name": "Fernando de Sousa Oliveira", "relation": "Mencionado pela notícia oficial na mesma apuração sobre os atos de 8 de janeiro.", "sources": [5]},
 {"name": "Fábio Vieira", "relation": "Mencionado pela notícia oficial na mesma apuração sobre os atos de 8 de janeiro.", "sources": [5]}
 ]
@@ -2662,8 +4012,8 @@ window.DATA={
 {
 "id": "5020",
 "title": "Inq. 5.020 — Crime organizado e conexões com agentes públicos",
-"summary": "Conforme o material fornecido pelo usuário, o Inq. 5.020 estaria relacionado à ADPF 635 e apuraria organizações criminosas no Rio de Janeiro e conexões com agentes públicos. O conteúdo abaixo não foi pesquisado nem verificado nesta sessão.",
-"status": "Em apuração segundo o material fornecido pelo usuário; não verificado independentemente. Prisões preventivas e acusações não equivalem a condenação.",
+"summary": "O Inq. 5.020 apura, segundo a representação da PF acolhida por Moraes, conexões entre agentes públicos e organizações criminosas no Rio de Janeiro.",
+"status": "Em apuração no STF sob relatoria de Alexandre de Moraes. Prisões preventivas e acusações não equivalem a condenação.",
 "peopleLabel": "nomes citados; vínculos não verificados",
 "groups": [
 {
@@ -2672,9 +4022,9 @@ window.DATA={
 "note": "Os vínculos e alegações reproduzidos do resumo fornecido pelo usuário não foram verificados independentemente. Para Alessandro, a decisão de prisão está vinculada ao PDF do STF; as movimentações posteriores foram informadas pelo usuário e não têm links do acompanhamento processual.",
 "people": [
 {"name": "Marcus Henrique de Oliveira Alves", "profile": "marcus-alves", "handle": "marcus_alves", "measure": "prisao", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Delegado titular da 44ª DP. O resumo fornecido diz que a PF o apontou como um dos líderes de um núcleo policial que protegeria e facilitaria a atuação de lideranças do Comando Vermelho. Relata prisão preventiva decretada por Alexandre de Moraes em março de 2026 e acusação de recebimento de propina. Alegações não verificadas nesta sessão.", "sources": [0]},
-{"name": "Franklin José de Oliveira Alves", "profile": "franklin-alves", "handle": "franklin_alves", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Comissário de polícia e irmão de Marcus. O resumo o descreve como integrante do mesmo núcleo policial investigado e relata prisão preventiva em março de 2026 junto com o irmão. As alegações não foram verificadas nesta sessão.", "sources": [0]},
-{"name": "Leandro Moutinho de Deus", "profile": "leandro-moutinho", "handle": "leandro_moutinho", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Oficial de cartório da Polícia Civil. O resumo fornecido o aponta como intermediário de pagamentos indevidos e informa prisão preventiva em março de 2026. Alegações não verificadas nesta sessão.", "sources": [0]},
-{"name": "Luiz Eduardo Cunha Gonçalves (Dudu)", "profile": "dudu-cunha", "handle": "dudu_cunha", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Ex-assessor parlamentar de TH Joias. O resumo fornecido o descreve como elo entre o mandato e o esquema policial, menciona identificação na Operação Zargun em 2025 e prisão preventiva em março de 2026. Alegações não verificadas nesta sessão.", "sources": [0, 1]},
+{"name": "Franklin José de Oliveira Alves", "profile": "franklin-alves", "handle": "franklin_alves", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Comissário da Polícia Civil do RJ. A representação da PF o aponta como integrante do núcleo investigado e descreve atuação direta na cobrança ilícita de R$ 1,5 milhão. Moraes determinou cautelares em 06/03/2026.", "sources": [0, 3]},
+{"name": "Leandro Moutinho de Deus", "profile": "leandro-moutinho", "handle": "leandro_moutinho", "measure": "prisao", "identifiers": ["#Inq5020"], "relation": "Oficial de cartório da 44ª DP. A PF o apontou como intermediário na negociação de propina de R$ 1,5 milhão. Moraes decretou prisão em 06/03/2026 e manteve a cautela em 08/06, 29/06 e 21/09/2026. A PGR ofereceu denúncia em 07/07/2026; não há condenação.", "sources": [0, 3]},
+{"name": "Luiz Eduardo Cunha Gonçalves (Dudu)", "profile": "dudu-cunha", "handle": "dudu_cunha", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Ex-assessor parlamentar de TH Joias. Apontado pela PF como intermediário na negociação de R$ 1,5 milhão; prisão decretada em 06/03/2026. Em setembro de 2026, o TRF-2 recebeu denúncia do MPF no contexto da Operação Zargun. Não há condenação.", "sources": [0, 1]},
 {"name": "Alessandro Pitombeira Carracena", "profile": "alessandro-carracena", "handle": "alessandro_carracena", "measure": "prisao", "identifiers": ["#Inq5020", "#OperacaoZargun"], "relation": "Advogado e ex-secretário estadual citado na investigação. Consulte a thread de andamentos da Petição 15.620/DF no perfil.", "sources": [0, 1, 3]}
 ]
 },
@@ -2685,8 +4035,8 @@ window.DATA={
 "people": [
 {"name": "Edgar Alves de Andrade", "profile": "edgar-alves-de-andrade", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Doca ou Urso; o resumo o associa à área do Complexo da Penha e o descreve como foragido e principal liderança mencionada no relatório.", "sources": [2]},
 {"name": "Carlos da Costa Neves", "profile": "carlos-da-costa-neves", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Gardenal; o resumo o associa ao Complexo da Penha e o descreve como foragido.", "sources": [2]},
-{"name": "Pedro Paulo Guedes", "profile": "pedro-paulo-guedes", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Pedro Bala; o resumo o associa ao Complexo da Penha e o descreve como foragido.", "sources": [2]},
-{"name": "Juan Breno Malta", "profile": "juan-breno-malta", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como BMW ou Rex; o resumo o associa ao Complexo da Penha e o descreve como foragido.", "sources": [2]},
+{"name": "Pedro Paulo Guedes", "profile": "pedro-paulo-guedes", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Pedro Bala. O GAECO/MPRJ o apontou como integrante do primeiro escalão do Comando Vermelho no Complexo da Penha e alvo de prisão preventiva na ação penal nº 0840740-85.2025.8.19.0001.", "sources": [7, 8]},
+{"name": "Juan Breno Malta Ramos Rodrigues", "profile": "juan-breno-malta", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como BMW ou Rex. O MPRJ o apontou como liderança operacional e chefe da Equipe Sombra na Grande Jacarepaguá; foi denunciado na ação penal nº 0840740-85.2025.8.19.0001.", "sources": [7, 8]},
 {"name": "Manoel Cinquine Pereira", "profile": "manoel-cinquine-pereira", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Paulista; o resumo o associa ao Complexo da Penha e o descreve como investigado.", "sources": [2]},
 {"name": "Luciano Martiniano da Silva", "profile": "luciano-martiniano-da-silva", "identifiers": ["#Inq5020", "#ADPF635"], "relation": "Conhecido como Pezão; o resumo o associa ao Complexo do Alemão e o descreve como investigado.", "sources": [2]}
 ]
@@ -2703,7 +4053,9 @@ window.DATA={
 {"title": "STF — Decisão na Petição 15.620/DF que decreta prisões preventivas", "date": "2026-03-06", "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/03/11215852/PET-15620-decisao-2-1.pdf"},
 {"title": "Acompanhamento processual da Petição 15.620 — andamento de 08/06/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-06-08"},
 {"title": "Acompanhamento processual da Petição 15.620 — andamento de 30/07/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-07-30"},
-{"title": "Acompanhamento processual da Petição 15.620 — andamento de 10/11/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-11-10"}
+{"title": "Acompanhamento processual da Petição 15.620 — andamento de 10/11/2026 (data e conteúdo informados pelo usuário; link não fornecido)", "date": "2026-11-10"},
+{"title": "Ação penal nº 0840740-85.2025.8.19.0001 — 42ª Vara Criminal da Comarca da Capital", "date": "2025-07-08"},
+{"title": "STF — ADPF 635; providências relativas à Operação Contenção", "date": "2025-11-08"}
 ]
 }
 ],

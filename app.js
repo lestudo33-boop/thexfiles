@@ -85,7 +85,7 @@ function Post({x,open,toggle,liked,like,detail,caseTags=[]}){const p=B[x.user],n
     ${!detail&&html`<a className="ab open" href=${"#/p/"+x.id}>Abrir processo</a>`}
     ${copyStatus&&html`<span className="copy-confirmation" role="status">${copyStatus}</span>`}
    </div></div></div>
- ${open&&html`<div className="thread"><button className="thread-explainer" type="button" onClick=${explain}><img src="logo.png" alt=""/><span>Analisar publicação com IA</span><small>Análise com IA</small></button>${x.passos.map((s,i)=>html`<${Step} key=${i} s=${s} root=${x.user} last=${i==x.passos.length-1}/>`)}${(x.notes||[]).map((note,i)=>html`<div key=${"note-"+i} className="case-note"><span>${note.text}</span><div>Fonte: <a href=${note.url} target="_blank" rel="noopener noreferrer">${note.source}</a></div></div>`)}</div>`}
+ ${open&&html`<div className="thread">${x.passos.map((s,i)=>html`<${Step} key=${i} s=${s} root=${x.user} last=${i==x.passos.length-1}/>`)}${(x.notes||[]).map((note,i)=>html`<div key=${"note-"+i} className="case-note"><span>${note.text}</span><div>Fonte: <a href=${note.url} target="_blank" rel="noopener noreferrer">${note.source}</a></div></div>`)}</div>`}
  ${explanation&&html`<${ExplainModal} state=${explanation} post=${x} profile=${p} onClose=${closeExplanation} onRetry=${explain}/>`}
  </article>`}
 const Head=({t,sub,back,home,backTo})=>html`<div className=${"top"+(home?" home-heading":"")}>${back&&html`<a className="back" href=${backTo||"#/"} aria-label="Voltar"><${Ic} n="b"/></a>`}<div className="tt"><h1>${t}</h1>${sub&&html`<small>${sub}</small>`}</div></div>`;
@@ -223,7 +223,45 @@ function Perfil({id,feed}){const p=B[id],[tab,setTab]=useState(""),[o,setO]=useS
  <div className="ptabs">${tabs.map(([k,l])=>html`<button key=${k} className=${tab==k?"on":""} onClick=${()=>setTab(k)}>${l}<i/></button>`)}</div>
  ${flat?shown.map((s,i)=>html`<a key=${i} className="act" href=${"#/p/"+s.x.id}><div className="meta">${au?"Em resposta a @"+B[s.x.user].handle:B[s.a].name} · ${fmt(s.d)}</div><div className="txt">${s.t}</div>${s.k&&html`<span className=${"tag "+s.k}>${M[s.k]}</span>`}</a>`):html`<${React.Fragment}>${mine.map(x=>html`<${Post} key=${x.id} x=${x} open=${o[x.id]!==false} toggle=${()=>setO(v=>({...v,[x.id]:v[x.id]===false}))} liked=${feed.liked[x.id]} like=${()=>feed.like(x.id)}/>`)}${caseItems.map(x=>html`<${InquiryFeedPost} key=${x.id} item=${x}/>`)}<//>`}
  ${!shown.length&&!mine.length&&(!caseItems.length||flat)&&html`<div className="empty">Nada nesta aba.</div>`}`}
-function App(){const feed=useFeed(),[h,setH]=useState(location.hash);useEffect(()=>{const f=()=>{setH(location.hash);scrollTo(0,0)};addEventListener("hashchange",f);return()=>removeEventListener("hashchange",f)},[]);
+function setSeo(h){
+ let title="The Xandão-Files | Processos, decisões e perfis do STF";
+ let description="Arquivo público sobre decisões, processos, inquéritos e pessoas investigadas no STF.";
+ let schema=null;
+ const [route,id]=(h.replace("#/","").replace(/^#/,"").split("/")||[]);
+ if(route=="perfil"&&B[id]){
+  const p=B[id];
+  title=p.name+" | Perfil e processos | The Xandão-Files";
+  description=(p.status?p.status+" ":"")+(p.bio||"Perfil e registros processuais no arquivo público.");
+  schema={"@context":"https://schema.org","@type":"Person","name":p.name,"description":description,"knowsAbout":["Supremo Tribunal Federal","Inquérito 5.020"]};
+ }else if(route=="p"){
+  const post=D.posts.find(p=>p.id==id);
+  if(post){
+   title=post.texto.split("\n")[0]+" | The Xandão-Files";
+   description=(post.texto||"").replace(/\n+/g," ").slice(0,180);
+   schema={"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"articleSection":"Processos e decisões do STF","inLanguage":"pt-BR","author":{"@type":"Organization","name":"The Xandão-Files"}};
+  }
+ }else if(route=="caso"){
+  const inquiry=D.inquiries.find(x=>x.id==id);
+  if(inquiry){title=inquiry.title+" | The Xandão-Files";description=inquiry.summary;schema={"@context":"https://schema.org","@type":"Article","headline":inquiry.title,"description":description,"articleSection":"Inquéritos do STF","inLanguage":"pt-BR","author":{"@type":"Organization","name":"The Xandão-Files"}}}
+ }else if(route=="inqueritos"){title="Inquéritos relacionados ao STF | The Xandão-Files";description="Lista de inquéritos, resumos, pessoas mencionadas e fontes relacionadas às investigações do STF."}
+ else if(route=="perfis"){title="Perfis de investigados e autoridades | The Xandão-Files";description="Perfis de investigados, autoridades, pessoas mencionadas e seus registros no arquivo público."}
+ else if(route=="inquerito"){title="Inq. 4.781 — Inquérito das Fake News | The Xandão-Files";description="Linha do tempo, decisões e publicações relacionadas ao Inq. 4.781 do STF."}
+ document.title=title;
+ const set=(name,content)=>{let element=document.querySelector('meta[name="'+name+'"]')||document.querySelector('meta[property="'+name+'"]');if(!element)return;element.setAttribute("content",content)};
+ set("description",description);
+ set("og:title",title);
+ set("og:description",description);
+ set("og:url",location.origin+location.pathname);
+ set("twitter:title",title);
+ set("twitter:description",description);
+ let canonical=document.querySelector('link[rel="canonical"]');
+ if(!canonical){canonical=document.createElement("link");canonical.rel="canonical";document.head.appendChild(canonical)}
+ canonical.href=location.origin+location.pathname;
+ let ld=document.getElementById("dynamic-schema");
+ if(!ld){ld=document.createElement("script");ld.type="application/ld+json";ld.id="dynamic-schema";document.head.appendChild(ld)}
+ ld.textContent=schema?JSON.stringify(schema):JSON.stringify({"@context":"https://schema.org","@type":"CollectionPage","name":title,"description":description,"inLanguage":"pt-BR"});
+}
+function App(){const feed=useFeed(),[h,setH]=useState(location.hash);useEffect(()=>{setSeo(h);const f=()=>{setH(location.hash);scrollTo(0,0)};addEventListener("hashchange",f);return()=>removeEventListener("hashchange",f)},[h]);
  const [r,a]=h.replace("#/","").split("/");let v;
  if(r=="p")v=html`<${Detail} id=${a} feed=${feed}/>`;else if(r=="inqueritos")v=html`<${Inquiries}/>`;else if(r=="caso")v=html`<${InquiryDetail} id=${a}/>`;else if(r=="inquerito")v=html`<${Inq} feed=${feed}/>`;else if(r=="perfis")v=html`<${Perfis}/>`;else if(r=="perfil")v=html`<${Perfil} id=${a} feed=${feed}/>`;else v=html`<${Home} feed=${feed}/>`;
  const nav=[["#/","Início","⌂",""],["#/inqueritos","Inquéritos","⚖","inqueritos"],["#/perfis","Perfis","☺","perfis"]],cnt={};D.posts.forEach(x=>x.passos.forEach(s=>cnt[s.a]=(cnt[s.a]||0)+1));

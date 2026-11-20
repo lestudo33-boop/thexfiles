@@ -1,0 +1,7 @@
+This site provides public, machine-readable context for AI assistants and answer engines.
+
+Primary machine-readable context: /llms.txt
+Structured project data: /data.js
+Indexable presentation: /
+
+Important: processual allegations are not convictions. Preserve source and verification qualifiers.

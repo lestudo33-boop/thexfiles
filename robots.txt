@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# This archive does not represent the official STF and is not an account of an authority.
+# Machine-readable context: /llms.txt
